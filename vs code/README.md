@@ -10,4 +10,4 @@ code --install-extension /d/csharpfixformat-0.0.84.vsix
 
 **Step 3**: Open any `.cs` file, then click F1 to type "Format document with...", set "C# FixFormat" as default.
 
-**Step 4**: You can use `Ctrl + K + F` now.
+**Step 4**: You can use `Ctrl + K + F` to format C# code now.
