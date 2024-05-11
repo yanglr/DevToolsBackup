@@ -1,0 +1,4529 @@
+1
+00:00:00,000 --> 00:00:03,360
+ Youtube subtitles download by mo.dbxdb.com 
+
+2
+00:00:03,360 --> 00:00:07,720
+so we're joking around here
+
+3
+00:00:04,720 --> 00:00:10,230
+with uh who are you
+
+4
+00:00:07,230 --> 00:00:13,800
+[Laughter]
+
+5
+00:00:10,800 --> 00:00:14,440
+anders heilsper chief randomizer on the
+
+6
+00:00:13,440 --> 00:00:17,540
+c-sharp team
+
+7
+00:00:14,540 --> 00:00:19,600
+[Laughter]
+
+8
+00:00:17,600 --> 00:00:22,119
+cool and what are we yeah what are we
+
+9
+00:00:19,119 --> 00:00:23,160
+doing here what are we doing here
+
+10
+00:00:22,160 --> 00:00:25,600
+so and we're also here with dan
+
+11
+00:00:23,600 --> 00:00:27,840
+fernandez oh yeah product manager
+
+12
+00:00:25,840 --> 00:00:28,920
+program manager product manager on the
+
+13
+00:00:27,920 --> 00:00:32,880
+c-sharp team
+
+14
+00:00:28,880 --> 00:00:34,160
+yeah and last time we talked to anders
+
+15
+00:00:32,160 --> 00:00:36,559
+uh let's last couple times we talked
+
+16
+00:00:34,559 --> 00:00:39,559
+about
+
+17
+00:00:36,559 --> 00:00:40,680
+the need for to make it easier for those
+
+18
+00:00:39,680 --> 00:00:44,960
+of us writing
+
+19
+00:00:40,960 --> 00:00:45,000
+in say c sharp to interact with sql
+
+20
+00:00:44,000 --> 00:00:47,760
+and you had mentioned something briefly
+
+21
+00:00:45,760 --> 00:00:47,680
+about well we're thinking about that for
+
+22
+00:00:47,680 --> 00:00:50,920
+c
+
+23
+00:00:47,920 --> 00:00:51,239
+sharp 3.0 blah blah blah now we have
+
+24
+00:00:50,239 --> 00:00:54,520
+project link
+
+25
+00:00:51,520 --> 00:00:56,640
+what's going on well so we thought about
+
+26
+00:00:54,640 --> 00:00:58,559
+it
+
+27
+00:00:56,559 --> 00:00:59,320
+yeah i mean so we talked about that the
+
+28
+00:00:58,320 --> 00:01:01,600
+big disconnect between
+
+29
+00:00:59,600 --> 00:01:02,680
+uh databases and general purpose
+
+30
+00:01:01,680 --> 00:01:04,960
+programming languages and that's
+
+31
+00:01:02,960 --> 00:01:07,479
+effectively what we've
+
+32
+00:01:04,479 --> 00:01:08,920
+worked on for the last 18 probably 18 24
+
+33
+00:01:07,920 --> 00:01:12,799
+months
+
+34
+00:01:08,799 --> 00:01:15,319
+um and now at the pdc
+
+35
+00:01:12,319 --> 00:01:16,520
+we are showing wow the first preview of
+
+36
+00:01:15,520 --> 00:01:19,479
+the link project
+
+37
+00:01:16,479 --> 00:01:20,200
+link stands for it's linq for language
+
+38
+00:01:19,200 --> 00:01:23,799
+integrated query
+
+39
+00:01:20,799 --> 00:01:24,119
+and it's effectively sort of in a
+
+40
+00:01:23,119 --> 00:01:27,720
+nutshell it is
+
+41
+00:01:24,720 --> 00:01:29,680
+taking query set operations and
+
+42
+00:01:27,680 --> 00:01:30,920
+transforms and making them first class
+
+43
+00:01:29,920 --> 00:01:33,640
+concepts
+
+44
+00:01:30,640 --> 00:01:34,360
+in the dot net framework and that means
+
+45
+00:01:33,360 --> 00:01:36,640
+you know in the in the
+
+46
+00:01:34,640 --> 00:01:39,720
+clr itself it means in programming
+
+47
+00:01:36,720 --> 00:01:41,438
+languages in apis and so forth
+
+48
+00:01:39,438 --> 00:01:43,920
+such that you get a completely unified
+
+49
+00:01:41,920 --> 00:01:46,599
+query experience across
+
+50
+00:01:43,599 --> 00:01:47,640
+objects and xml and data all the various
+
+51
+00:01:46,640 --> 00:01:50,520
+or
+
+52
+00:01:47,520 --> 00:01:51,078
+forms that that data occurs in in your
+
+53
+00:01:50,078 --> 00:01:54,119
+applications
+
+54
+00:01:51,119 --> 00:01:55,239
+so now uh what is this what does it look
+
+55
+00:01:54,239 --> 00:01:58,040
+like i mean
+
+56
+00:01:55,040 --> 00:02:00,159
+i'm thinking of you know say select star
+
+57
+00:01:58,159 --> 00:02:02,640
+from some table where what does that
+
+58
+00:02:00,640 --> 00:02:04,319
+look like in c sharp well we'll take a
+
+59
+00:02:02,319 --> 00:02:04,159
+look at in a little bit here i'll show
+
+60
+00:02:04,159 --> 00:02:06,560
+you
+
+61
+00:02:04,560 --> 00:02:08,159
+what the code looks looks like let me
+
+62
+00:02:06,159 --> 00:02:09,000
+first talk a little bit about how how
+
+63
+00:02:08,000 --> 00:02:11,919
+it sort of differs from from traditional
+
+64
+00:02:09,919 --> 00:02:12,038
+uh uh
+
+65
+00:02:11,038 --> 00:02:15,959
+approaches to this i mean and indeed you
+
+66
+00:02:12,959 --> 00:02:17,120
+know like select star from or whatever
+
+67
+00:02:15,120 --> 00:02:18,280
+yes you may have written that and and if
+
+68
+00:02:17,280 --> 00:02:19,160
+you think back
+
+69
+00:02:18,160 --> 00:02:22,598
+maybe it wasn't so long you wrote it but
+
+70
+00:02:19,598 --> 00:02:24,160
+but you probably wrote it in quotes
+
+71
+00:02:22,160 --> 00:02:26,160
+you know and you you gave it as an
+
+72
+00:02:24,160 --> 00:02:28,000
+argument to new secret command
+
+73
+00:02:26,000 --> 00:02:30,160
+of select star blah blah blah with
+
+74
+00:02:28,160 --> 00:02:32,878
+placeholders for the arguments etc etc
+
+75
+00:02:30,878 --> 00:02:34,560
+and of course when you wrote it there
+
+76
+00:02:32,560 --> 00:02:36,800
+was no compile time type checking nor
+
+77
+00:02:34,800 --> 00:02:38,560
+was there any intellisense or or
+
+78
+00:02:36,560 --> 00:02:40,160
+anything because effectively
+
+79
+00:02:38,160 --> 00:02:41,080
+you have sort of the language you're
+
+80
+00:02:40,080 --> 00:02:42,680
+writing in c sharp and then you have the
+
+81
+00:02:41,680 --> 00:02:45,720
+language in quotes
+
+82
+00:02:42,720 --> 00:02:47,440
+sequel which is not at all understood in
+
+83
+00:02:45,440 --> 00:02:49,120
+in in that context and
+
+84
+00:02:47,120 --> 00:02:51,680
+that sort of just sort of scratches the
+
+85
+00:02:49,680 --> 00:02:53,199
+surface to illustrate the deep
+
+86
+00:02:51,199 --> 00:02:54,680
+mismatches that we have between that
+
+87
+00:02:53,680 --> 00:02:58,878
+data domain and the
+
+88
+00:02:54,878 --> 00:03:00,158
+object domain um it's not just
+
+89
+00:02:58,158 --> 00:03:02,479
+that the integration story is kind of
+
+90
+00:03:00,479 --> 00:03:04,158
+funny in that you have a language within
+
+91
+00:03:02,158 --> 00:03:05,560
+the other language but also at a deeper
+
+92
+00:03:04,560 --> 00:03:07,199
+level like
+
+93
+00:03:05,199 --> 00:03:08,598
+things like objects versus relational
+
+94
+00:03:07,598 --> 00:03:10,639
+algebra
+
+95
+00:03:08,639 --> 00:03:13,878
+novel types versus not different
+
+96
+00:03:10,878 --> 00:03:15,519
+standard functions different data types
+
+97
+00:03:13,519 --> 00:03:17,280
+you know everything is different between
+
+98
+00:03:15,280 --> 00:03:18,039
+these two domains and we can do so much
+
+99
+00:03:17,039 --> 00:03:20,800
+better by integrating the world so that
+
+100
+00:03:18,800 --> 00:03:23,479
+when you write your queries in c
+
+101
+00:03:20,479 --> 00:03:24,280
+sharp it's like a natural part of the c
+
+102
+00:03:23,280 --> 00:03:25,878
+sharp language you know what i mean when
+
+103
+00:03:24,878 --> 00:03:27,919
+you write your
+
+104
+00:03:25,919 --> 00:03:29,680
+your predicates like where you want to
+
+105
+00:03:27,680 --> 00:03:30,759
+say where blah blah blah well it's a c
+
+106
+00:03:29,759 --> 00:03:32,318
+sharp
+
+107
+00:03:30,318 --> 00:03:33,000
+expression of type bool that you're
+
+108
+00:03:32,000 --> 00:03:35,680
+you're writing there in terms of
+
+109
+00:03:33,680 --> 00:03:37,120
+you know the stuff that you're querying
+
+110
+00:03:35,120 --> 00:03:39,199
+and so forth and you get
+
+111
+00:03:37,199 --> 00:03:40,280
+intellisense you get compile time type
+
+112
+00:03:39,280 --> 00:03:41,959
+checking and you get to write the
+
+113
+00:03:40,959 --> 00:03:43,759
+queries
+
+114
+00:03:41,759 --> 00:03:45,519
+not just against your database but also
+
+115
+00:03:43,519 --> 00:03:46,440
+against an in-memory array of customers
+
+116
+00:03:45,440 --> 00:03:48,080
+that you have
+
+117
+00:03:46,080 --> 00:03:49,080
+using exactly the same syntax or against
+
+118
+00:03:48,080 --> 00:03:51,519
+an xml document
+
+119
+00:03:49,519 --> 00:03:53,519
+so that's sort of where we're going with
+
+120
+00:03:51,519 --> 00:03:54,120
+this stuff fantastic
+
+121
+00:03:53,120 --> 00:03:56,878
+now clearly have you been working with
+
+122
+00:03:54,878 --> 00:03:58,400
+the sql team because they've done some
+
+123
+00:03:56,400 --> 00:04:00,479
+interesting work in 2005 with
+
+124
+00:03:58,479 --> 00:04:01,318
+being able to write story procedures in
+
+125
+00:04:00,318 --> 00:04:03,759
+c sharp
+
+126
+00:04:01,759 --> 00:04:05,438
+um and work like that so i'm sure you
+
+127
+00:04:03,438 --> 00:04:07,280
+guys have worked together at all or well
+
+128
+00:04:05,280 --> 00:04:10,360
+we we talk all the time obviously
+
+129
+00:04:07,360 --> 00:04:11,318
+and and and the sql clr uh support in
+
+130
+00:04:10,318 --> 00:04:12,039
+yukon
+
+131
+00:04:11,039 --> 00:04:15,639
+is sort of laying the foundation for
+
+132
+00:04:12,639 --> 00:04:17,199
+hosting manage code inside sql server
+
+133
+00:04:15,199 --> 00:04:19,279
+the stuff we're showing here is sort of
+
+134
+00:04:17,279 --> 00:04:21,600
+like what could you do with that in the
+
+135
+00:04:19,600 --> 00:04:23,279
+future and then so far
+
+136
+00:04:21,279 --> 00:04:24,360
+we're outside the server itself so it so
+
+137
+00:04:23,360 --> 00:04:25,720
+this stuff that i'm going to demo you
+
+138
+00:04:24,720 --> 00:04:27,279
+here and
+
+139
+00:04:25,279 --> 00:04:28,120
+the bits we're hanging out with the pdc
+
+140
+00:04:27,120 --> 00:04:30,478
+all run on the mid tier
+
+141
+00:04:28,478 --> 00:04:32,720
+not inside the server but going forward
+
+142
+00:04:30,720 --> 00:04:33,639
+that is absolutely a direction that
+
+143
+00:04:32,639 --> 00:04:36,360
+we're looking at
+
+144
+00:04:33,360 --> 00:04:37,880
+fantastic so um shall we look at some
+
+145
+00:04:36,880 --> 00:04:39,360
+code
+
+146
+00:04:37,360 --> 00:04:41,839
+sure i mean we can always talk more too
+
+147
+00:04:39,839 --> 00:04:42,120
+no no no no no
+
+148
+00:04:41,120 --> 00:04:45,800
+let's let's always let's look at some
+
+149
+00:04:42,800 --> 00:04:48,040
+code here
+
+150
+00:04:45,040 --> 00:04:49,079
+so what i have here is just um a little
+
+151
+00:04:48,079 --> 00:04:50,918
+program that has some sample data and
+
+152
+00:04:49,918 --> 00:04:52,240
+this
+
+153
+00:04:50,240 --> 00:04:55,800
+in this particular case here um it's
+
+154
+00:04:52,800 --> 00:04:56,360
+just an array of customers that i've
+
+155
+00:04:55,360 --> 00:04:58,639
+gotten from somewhere it doesn't
+
+156
+00:04:56,639 --> 00:05:00,079
+actually matter where they came from i
+
+157
+00:04:58,079 --> 00:05:01,079
+could have just knew them up right now
+
+158
+00:05:00,079 --> 00:05:04,839
+and customers have you know names and
+
+159
+00:05:01,839 --> 00:05:05,079
+addresses and an embedded collection of
+
+160
+00:05:04,079 --> 00:05:07,600
+orders and so forth so now i'm going to
+
+161
+00:05:05,600 --> 00:05:07,038
+try and write some queries against this
+
+162
+00:05:07,038 --> 00:05:09,519
+stuff
+
+163
+00:05:07,519 --> 00:05:11,759
+um my first little query is just going
+
+164
+00:05:09,759 --> 00:05:13,680
+to say give me all the customers and
+
+165
+00:05:11,680 --> 00:05:14,519
+then i'm going to call my object dumper
+
+166
+00:05:13,519 --> 00:05:16,639
+which is a little
+
+167
+00:05:14,639 --> 00:05:17,079
+little piece of code written using
+
+168
+00:05:16,079 --> 00:05:20,839
+reflection that just dumps
+
+169
+00:05:17,839 --> 00:05:22,399
+uh the contents of of my customers so if
+
+170
+00:05:20,399 --> 00:05:24,720
+i try and run this
+
+171
+00:05:22,720 --> 00:05:25,079
+here you'll just see a list of all the
+
+172
+00:05:24,079 --> 00:05:26,279
+customers and you'll see this is
+
+173
+00:05:25,279 --> 00:05:28,880
+actually all the northwind customers
+
+174
+00:05:26,880 --> 00:05:29,720
+that i've just put into objects and it
+
+175
+00:05:28,720 --> 00:05:30,120
+has
+
+176
+00:05:29,120 --> 00:05:32,800
+you know they each have a bunch of
+
+177
+00:05:30,800 --> 00:05:35,319
+properties um
+
+178
+00:05:32,319 --> 00:05:38,759
+the first thing you note here is
+
+179
+00:05:35,759 --> 00:05:41,959
+var q equals customers var is local
+
+180
+00:05:38,959 --> 00:05:43,120
+variable type inference so this is a
+
+181
+00:05:41,120 --> 00:05:45,440
+basically the ability to declare local
+
+182
+00:05:43,440 --> 00:05:46,199
+variables and have their type be
+
+183
+00:05:45,199 --> 00:05:48,319
+inferred from
+
+184
+00:05:46,319 --> 00:05:50,478
+the value that you assigned to them so
+
+185
+00:05:48,478 --> 00:05:51,079
+this is exactly the same as saying
+
+186
+00:05:50,079 --> 00:05:53,360
+customer array queue
+
+187
+00:05:51,360 --> 00:05:55,600
+equals customer because customers is of
+
+188
+00:05:53,600 --> 00:05:58,038
+type customer array
+
+189
+00:05:55,038 --> 00:05:59,560
+um anyway let me let me let me first try
+
+190
+00:05:58,560 --> 00:06:01,759
+and query here and the first thing i'm
+
+191
+00:05:59,759 --> 00:06:03,839
+going to do is maybe filter this down to
+
+192
+00:06:01,839 --> 00:06:05,519
+fewer customers maybe those that are in
+
+193
+00:06:03,519 --> 00:06:08,199
+the city of london so i can say
+
+194
+00:06:05,199 --> 00:06:12,478
+dot where and then c
+
+195
+00:06:08,478 --> 00:06:16,560
+calling the customer c c dot city
+
+196
+00:06:12,560 --> 00:06:18,399
+london and let's try and run this
+
+197
+00:06:16,399 --> 00:06:20,319
+and now you see my list of customers is
+
+198
+00:06:18,319 --> 00:06:21,639
+down to fewer um indeed if we scroll
+
+199
+00:06:20,639 --> 00:06:23,600
+sidewards here
+
+200
+00:06:21,600 --> 00:06:24,279
+we can sort of see that they're all in
+
+201
+00:06:23,279 --> 00:06:27,720
+the city of london
+
+202
+00:06:24,720 --> 00:06:29,360
+um now i could apply another operator
+
+203
+00:06:27,360 --> 00:06:32,440
+let me actually put this on
+
+204
+00:06:29,440 --> 00:06:34,478
+separate lines here and then apply a
+
+205
+00:06:32,478 --> 00:06:35,000
+select operator again calling the
+
+206
+00:06:34,000 --> 00:06:38,440
+customer c give me
+
+207
+00:06:35,440 --> 00:06:39,399
+c dot company name now let's try and run
+
+208
+00:06:38,399 --> 00:06:41,199
+this
+
+209
+00:06:39,199 --> 00:06:42,680
+and now we just see the company names of
+
+210
+00:06:41,680 --> 00:06:46,880
+the customers
+
+211
+00:06:42,880 --> 00:06:47,079
+in london um so
+
+212
+00:06:46,079 --> 00:06:48,519
+if you've done some c shop coding you're
+
+213
+00:06:47,519 --> 00:06:50,959
+going to wonder what what what the hell
+
+214
+00:06:48,959 --> 00:06:53,399
+is this stuff where where what
+
+215
+00:06:50,399 --> 00:06:53,038
+what is it he's writing here um so first
+
+216
+00:06:53,038 --> 00:06:55,680
+of all
+
+217
+00:06:53,680 --> 00:06:57,759
+um the argument to where and the
+
+218
+00:06:55,759 --> 00:07:00,598
+argument to select
+
+219
+00:06:57,598 --> 00:07:02,720
+are our sample functions or lambda
+
+220
+00:07:00,720 --> 00:07:04,160
+expressions we call them and they're
+
+221
+00:07:02,160 --> 00:07:06,560
+effectively an an evolution of
+
+222
+00:07:04,560 --> 00:07:07,399
+anonymous methods that are present in c
+
+223
+00:07:06,399 --> 00:07:10,759
+sharp two o okay
+
+224
+00:07:07,759 --> 00:07:12,478
+um in this case here though we have even
+
+225
+00:07:10,478 --> 00:07:13,399
+more type inference than we used to so
+
+226
+00:07:12,399 --> 00:07:15,839
+what i'm really writing here is a little
+
+227
+00:07:13,839 --> 00:07:17,918
+function that takes a customer c is an
+
+228
+00:07:15,918 --> 00:07:19,279
+argument and returns
+
+229
+00:07:17,279 --> 00:07:21,440
+c dot city equals london which is a type
+
+230
+00:07:19,440 --> 00:07:21,360
+bool which the where operator wants to
+
+231
+00:07:21,360 --> 00:07:24,680
+see
+
+232
+00:07:21,680 --> 00:07:26,720
+absolutely um now but you'll note that
+
+233
+00:07:24,720 --> 00:07:28,399
+we can infer what the type of c
+
+234
+00:07:26,399 --> 00:07:30,800
+is so you don't have to say customer ceo
+
+235
+00:07:28,800 --> 00:07:32,478
+but delegate a customer say you open
+
+236
+00:07:30,478 --> 00:07:34,399
+curly return blah blah blah blah
+
+237
+00:07:32,399 --> 00:07:36,639
+you just write it you know right in
+
+238
+00:07:34,639 --> 00:07:37,160
+there in situ and we infer
+
+239
+00:07:36,160 --> 00:07:39,759
+all of the all of the the types that
+
+240
+00:07:37,759 --> 00:07:41,918
+surround it same is true for the for the
+
+241
+00:07:39,918 --> 00:07:42,199
+select guy here
+
+242
+00:07:41,199 --> 00:07:43,240
+now the second thing you're going to
+
+243
+00:07:42,240 --> 00:07:45,839
+wonder is like where did this wear come
+
+244
+00:07:43,839 --> 00:07:47,519
+from and this select guy you know
+
+245
+00:07:45,519 --> 00:07:49,360
+because an array doesn't have a wear or
+
+246
+00:07:47,360 --> 00:07:49,000
+a selection
+
+247
+00:07:50,000 --> 00:07:53,399
+and a new feature we have in c sharp 3 0
+
+248
+00:07:52,399 --> 00:07:55,440
+is what we call
+
+249
+00:07:53,440 --> 00:07:56,918
+extension methods which is the ability
+
+250
+00:07:55,918 --> 00:07:59,959
+to extend
+
+251
+00:07:56,959 --> 00:08:01,598
+an existing type with new methods and
+
+252
+00:07:59,598 --> 00:08:02,279
+this sort of sounds like magic but it's
+
+253
+00:08:01,279 --> 00:08:04,879
+actually just based on some simple
+
+254
+00:08:02,879 --> 00:08:07,079
+lookup rules for
+
+255
+00:08:04,079 --> 00:08:08,038
+static methods okay and the way it works
+
+256
+00:08:07,038 --> 00:08:11,240
+here is that because i'm
+
+257
+00:08:08,240 --> 00:08:12,038
+importing the namespace system.query and
+
+258
+00:08:11,038 --> 00:08:14,478
+because system.query
+
+259
+00:08:12,478 --> 00:08:16,560
+defines a bunch of extension methods
+
+260
+00:08:14,560 --> 00:08:18,000
+okay like where and select
+
+261
+00:08:16,000 --> 00:08:20,319
+that all work on anything that implement
+
+262
+00:08:18,319 --> 00:08:21,160
+i innumerable of t
+
+263
+00:08:20,160 --> 00:08:24,759
+then because arrays implement
+
+264
+00:08:21,759 --> 00:08:26,160
+innumerable of t for some t
+
+265
+00:08:24,160 --> 00:08:28,800
+um i get where's and selects that i in
+
+266
+00:08:26,800 --> 00:08:30,079
+fact get a whole
+
+267
+00:08:28,079 --> 00:08:32,319
+library of methods like order by group
+
+268
+00:08:30,319 --> 00:08:33,158
+by any all
+
+269
+00:08:32,158 --> 00:08:36,759
+et cetera et cetera you know and and
+
+270
+00:08:33,759 --> 00:08:38,240
+these methods all composed to form a
+
+271
+00:08:36,240 --> 00:08:41,559
+complete query language that i can apply
+
+272
+00:08:38,559 --> 00:08:44,599
+to any dot net array or collection
+
+273
+00:08:41,599 --> 00:08:46,399
+fantastic so generics actually uh the
+
+274
+00:08:44,399 --> 00:08:49,799
+foundation for deep enabler in this yes
+
+275
+00:08:46,799 --> 00:08:51,360
+because generics make the type system
+
+276
+00:08:49,360 --> 00:08:53,519
+rich enough now that we can express all
+
+277
+00:08:51,519 --> 00:08:54,600
+the flow of type information that has to
+
+278
+00:08:53,600 --> 00:08:57,399
+occur
+
+279
+00:08:54,399 --> 00:08:59,919
+in a query very cool now even so you
+
+280
+00:08:57,919 --> 00:09:01,600
+might go gosh this is looking a little
+
+281
+00:08:59,600 --> 00:09:03,279
+geeky you know with these arrows and
+
+282
+00:09:01,279 --> 00:09:06,519
+stuff and whatever and so
+
+283
+00:09:03,519 --> 00:09:08,639
+on top of these on top of these
+
+284
+00:09:06,639 --> 00:09:10,880
+query methods we have a thing that we
+
+285
+00:09:08,880 --> 00:09:13,799
+call query expressions
+
+286
+00:09:10,799 --> 00:09:14,120
+um and that's effectively the ability to
+
+287
+00:09:13,120 --> 00:09:16,159
+write these queries
+
+288
+00:09:14,159 --> 00:09:18,639
+using a more query like syntax you asked
+
+289
+00:09:16,639 --> 00:09:19,159
+earlier does it look like sql what does
+
+290
+00:09:18,159 --> 00:09:21,600
+it look like well let me show you
+
+291
+00:09:19,600 --> 00:09:22,120
+what it what it looks like i could write
+
+292
+00:09:21,120 --> 00:09:25,720
+this very same query as
+
+293
+00:09:22,720 --> 00:09:29,759
+like this var q equals from
+
+294
+00:09:25,759 --> 00:09:33,919
+c in customers where c dot city
+
+295
+00:09:29,919 --> 00:09:33,679
+equals equals london
+
+296
+00:09:33,679 --> 00:09:38,200
+select c dot company and it would mean
+
+297
+00:09:37,200 --> 00:09:42,958
+precisely the same
+
+298
+00:09:38,958 --> 00:09:44,240
+now the way this works
+
+299
+00:09:42,240 --> 00:09:46,480
+and my analogy here is think of the for
+
+300
+00:09:44,480 --> 00:09:48,399
+each statement and i'm sure you've used
+
+301
+00:09:46,399 --> 00:09:51,000
+a gazillion topics right
+
+302
+00:09:48,000 --> 00:09:54,759
+yep now for each is actually a pattern
+
+303
+00:09:51,759 --> 00:09:56,880
+over first calling get a numerator and
+
+304
+00:09:54,880 --> 00:09:58,720
+then emitting a while statement that
+
+305
+00:09:56,720 --> 00:10:00,639
+calls move next on the enumerator and
+
+306
+00:09:58,639 --> 00:10:01,399
+obtains the current property and so
+
+307
+00:10:00,399 --> 00:10:03,839
+forth and you don't actually
+
+308
+00:10:01,839 --> 00:10:04,600
+think about that day to day you just use
+
+309
+00:10:03,600 --> 00:10:06,880
+for each exactly
+
+310
+00:10:04,880 --> 00:10:07,639
+the same is true here this is the same
+
+311
+00:10:06,639 --> 00:10:11,919
+but for queries
+
+312
+00:10:07,919 --> 00:10:13,120
+okay when you write from where select
+
+313
+00:10:11,120 --> 00:10:15,600
+we turn it into calls to the where
+
+314
+00:10:13,600 --> 00:10:17,440
+method and the select method on the
+
+315
+00:10:15,440 --> 00:10:19,279
+collection that you're querying
+
+316
+00:10:17,279 --> 00:10:20,200
+underneath but you don't have to think
+
+317
+00:10:19,200 --> 00:10:22,559
+about that that's
+
+318
+00:10:20,559 --> 00:10:23,559
+just an implementation detail and the
+
+319
+00:10:22,559 --> 00:10:25,919
+method could be implemented by the
+
+320
+00:10:23,919 --> 00:10:27,600
+collection itself or it could be an
+
+321
+00:10:25,600 --> 00:10:29,919
+extension method as is the case here
+
+322
+00:10:27,919 --> 00:10:30,120
+and it could actually come from
+
+323
+00:10:29,120 --> 00:10:32,639
+somewhere else and that's how we get
+
+324
+00:10:30,639 --> 00:10:34,480
+query syntax for
+
+325
+00:10:32,480 --> 00:10:36,958
+any arbitrary collection now does that
+
+326
+00:10:34,958 --> 00:10:37,639
+does it have to follow that pattern
+
+327
+00:10:36,639 --> 00:10:40,279
+because
+
+328
+00:10:37,279 --> 00:10:42,399
+logically after be doing so much sql
+
+329
+00:10:40,399 --> 00:10:43,958
+i i want to say select first then from
+
+330
+00:10:42,958 --> 00:10:46,839
+then where yes
+
+331
+00:10:43,839 --> 00:10:48,000
+so does it matter or it does matter it
+
+332
+00:10:46,000 --> 00:10:51,000
+doesn't matter from comes before select
+
+333
+00:10:48,000 --> 00:10:52,759
+okay um unlike sql now there you go why
+
+334
+00:10:51,759 --> 00:10:55,320
+is that
+
+335
+00:10:52,320 --> 00:10:56,279
+well um think of a couple of things
+
+336
+00:10:55,279 --> 00:11:00,799
+first of all
+
+337
+00:10:56,799 --> 00:11:02,240
+what if i were to write select
+
+338
+00:11:00,240 --> 00:11:04,000
+select and now i want statement
+
+339
+00:11:02,000 --> 00:11:06,480
+completion uh
+
+340
+00:11:04,480 --> 00:11:08,399
+what am i going to show you here okay
+
+341
+00:11:06,399 --> 00:11:09,320
+every variable in the universe we don't
+
+342
+00:11:08,320 --> 00:11:11,679
+know where it's coming from yet
+
+343
+00:11:09,679 --> 00:11:13,839
+so so there's a bit of a problem with
+
+344
+00:11:11,839 --> 00:11:15,759
+the flow of things in sql you need to
+
+345
+00:11:13,759 --> 00:11:16,279
+know the from class before you can give
+
+346
+00:11:15,279 --> 00:11:20,799
+help on the select clause
+
+347
+00:11:16,799 --> 00:11:21,000
+okay and logically sql is funny in that
+
+348
+00:11:20,000 --> 00:11:23,600
+the scope of the variable flows
+
+349
+00:11:21,600 --> 00:11:24,200
+backwards
+
+350
+00:11:23,200 --> 00:11:27,880
+you introduce it in the from clause but
+
+351
+00:11:24,880 --> 00:11:30,200
+it is in scope above the from clause
+
+352
+00:11:27,200 --> 00:11:32,078
+true so so things don't come in a
+
+353
+00:11:30,078 --> 00:11:34,240
+natural order in sql
+
+354
+00:11:32,240 --> 00:11:35,559
+and we've reordered such that things
+
+355
+00:11:34,559 --> 00:11:38,360
+flow
+
+356
+00:11:35,360 --> 00:11:39,159
+scope flows down like it always does in
+
+357
+00:11:38,159 --> 00:11:41,120
+your program
+
+358
+00:11:39,120 --> 00:11:42,039
+and things happen in the order you save
+
+359
+00:11:41,039 --> 00:11:44,559
+them first you take things from
+
+360
+00:11:42,559 --> 00:11:45,000
+somewhere then you filter them and then
+
+361
+00:11:44,000 --> 00:11:48,839
+you select stuff out of them
+
+362
+00:11:45,839 --> 00:11:50,799
+now if you look at x query you'll note
+
+363
+00:11:48,799 --> 00:11:52,240
+that they actually have the same
+
+364
+00:11:50,240 --> 00:11:52,159
+ordering of the operators as well so
+
+365
+00:11:52,159 --> 00:11:55,880
+it's not like
+
+366
+00:11:52,880 --> 00:11:56,600
+like we're treading completely uncharted
+
+367
+00:11:55,600 --> 00:11:57,000
+ground
+
+368
+00:11:56,000 --> 00:11:59,919
+here there's there's precedent for this
+
+369
+00:11:57,919 --> 00:12:01,360
+um and there are some
+
+370
+00:11:59,360 --> 00:12:02,360
+some more reasons for why it's important
+
+371
+00:12:01,360 --> 00:12:04,799
+to have the select at the end
+
+372
+00:12:02,799 --> 00:12:06,880
+when it gets into hierarchical queries
+
+373
+00:12:04,880 --> 00:12:06,399
+and so forth where the select cost can
+
+374
+00:12:06,399 --> 00:12:08,720
+get
+
+375
+00:12:06,720 --> 00:12:10,958
+very very large and you really want to
+
+376
+00:12:08,958 --> 00:12:11,559
+see what's in scope before you write
+
+377
+00:12:10,559 --> 00:12:14,839
+this large body of
+
+378
+00:12:11,839 --> 00:12:15,559
+of code in the select anyway um just to
+
+379
+00:12:14,559 --> 00:12:17,360
+sort of show you
+
+380
+00:12:15,360 --> 00:12:19,600
+let me delete the first version of the
+
+381
+00:12:17,600 --> 00:12:21,600
+query here and then try and run
+
+382
+00:12:19,600 --> 00:12:22,279
+and you'll see boom we get the same
+
+383
+00:12:21,279 --> 00:12:25,720
+result and in fact if you were to look
+
+384
+00:12:22,720 --> 00:12:28,519
+at the il it's precisely the same code
+
+385
+00:12:25,519 --> 00:12:29,480
+now the next thing you're going to want
+
+386
+00:12:28,480 --> 00:12:32,200
+to
+
+387
+00:12:29,200 --> 00:12:35,399
+look at here is projections
+
+388
+00:12:32,399 --> 00:12:35,039
+so in sql you can select x comma y comma
+
+389
+00:12:35,039 --> 00:12:37,759
+c from
+
+390
+00:12:35,759 --> 00:12:39,519
+some table or whatever and you can you
+
+391
+00:12:37,519 --> 00:12:40,679
+can effectively create structural types
+
+392
+00:12:39,679 --> 00:12:43,958
+on the fly
+
+393
+00:12:40,958 --> 00:12:45,039
+you know just by selecting a variety of
+
+394
+00:12:43,039 --> 00:12:47,039
+columns out of out of your table
+
+395
+00:12:45,039 --> 00:12:49,440
+now in the object world there is no
+
+396
+00:12:47,440 --> 00:12:52,200
+notion of structural types at least not
+
+397
+00:12:49,200 --> 00:12:53,000
+in a dot net type system um
+
+398
+00:12:52,000 --> 00:12:55,919
+okay and what we would do here instead
+
+399
+00:12:53,919 --> 00:12:57,839
+is we would convert objects from one
+
+400
+00:12:55,839 --> 00:12:59,440
+type to another
+
+401
+00:12:57,440 --> 00:13:01,600
+in order to project that would be the
+
+402
+00:12:59,600 --> 00:13:02,200
+analogy so if i have a bunch of
+
+403
+00:13:01,200 --> 00:13:04,799
+customers here and let's say i want to
+
+404
+00:13:02,799 --> 00:13:06,399
+create a phone list out of it
+
+405
+00:13:04,399 --> 00:13:09,799
+well i would i would effectively project
+
+406
+00:13:06,799 --> 00:13:09,120
+into maybe a new contact class that i've
+
+407
+00:13:09,120 --> 00:13:12,839
+written
+
+408
+00:13:09,839 --> 00:13:16,880
+so i might say select new contact
+
+409
+00:13:12,880 --> 00:13:18,320
+of c dot company name comma c dot phone
+
+410
+00:13:16,320 --> 00:13:20,639
+if you see what i'm saying and that
+
+411
+00:13:18,639 --> 00:13:22,000
+would be my projection i would
+
+412
+00:13:20,000 --> 00:13:25,799
+change my array of customers into a
+
+413
+00:13:22,799 --> 00:13:27,200
+sequence of contacts and i picked out
+
+414
+00:13:25,200 --> 00:13:28,200
+company name and phone of course now i
+
+415
+00:13:27,200 --> 00:13:30,639
+would have to go write this contact
+
+416
+00:13:28,639 --> 00:13:31,159
+class absolutely and introduce
+
+417
+00:13:30,159 --> 00:13:32,919
+constructors and properties and so forth
+
+418
+00:13:31,919 --> 00:13:35,799
+and that's a bit of a
+
+419
+00:13:32,799 --> 00:13:36,200
+pain you know if you had to write a new
+
+420
+00:13:35,200 --> 00:13:39,320
+class for every
+
+421
+00:13:36,320 --> 00:13:42,759
+select statement that you wrote now
+
+422
+00:13:39,759 --> 00:13:44,720
+to alleviate that what we support is now
+
+423
+00:13:42,720 --> 00:13:46,480
+this thing we call anonymous type so i
+
+424
+00:13:44,480 --> 00:13:51,000
+can simply say new
+
+425
+00:13:46,000 --> 00:13:53,279
+open curly i can close curly here
+
+426
+00:13:51,279 --> 00:13:54,600
+and what i'm doing here is i am saying
+
+427
+00:13:53,600 --> 00:13:57,799
+give me an instance
+
+428
+00:13:54,799 --> 00:13:59,360
+of something that has two fields or two
+
+429
+00:13:57,360 --> 00:14:02,759
+properties company name and phone
+
+430
+00:13:59,759 --> 00:14:03,240
+and then just project them out from the
+
+431
+00:14:02,240 --> 00:14:05,759
+customers and then give me back a
+
+432
+00:14:03,759 --> 00:14:08,120
+sequence of that
+
+433
+00:14:05,120 --> 00:14:09,078
+now now this thing i'm creating here is
+
+434
+00:14:08,078 --> 00:14:11,440
+just like any clr
+
+435
+00:14:09,440 --> 00:14:13,198
+class it's just that it's created by the
+
+436
+00:14:11,198 --> 00:14:14,198
+compiler instead of having being created
+
+437
+00:14:13,198 --> 00:14:16,000
+by me
+
+438
+00:14:14,000 --> 00:14:18,480
+and it is its shape is inferred from how
+
+439
+00:14:16,480 --> 00:14:19,240
+i used it in the query
+
+440
+00:14:18,240 --> 00:14:21,919
+and then the query gives me a sequence
+
+441
+00:14:19,919 --> 00:14:23,759
+of those back and
+
+442
+00:14:21,759 --> 00:14:25,519
+here we see local variable type
+
+443
+00:14:23,519 --> 00:14:27,120
+inference comes to the rescue since i
+
+444
+00:14:25,120 --> 00:14:30,759
+can't say the name of this type
+
+445
+00:14:27,759 --> 00:14:32,480
+local variable type inference allows
+
+446
+00:14:30,480 --> 00:14:34,159
+allows me to not say it
+
+447
+00:14:32,159 --> 00:14:35,559
+and still be strongly typed okay now
+
+448
+00:14:34,559 --> 00:14:36,839
+let's first try and run it and you'll
+
+449
+00:14:35,839 --> 00:14:38,480
+see the
+
+450
+00:14:36,480 --> 00:14:40,720
+the shape of this is yes i now have a
+
+451
+00:14:38,720 --> 00:14:41,320
+sequence of something that has company
+
+452
+00:14:40,320 --> 00:14:43,600
+name and phone
+
+453
+00:14:41,600 --> 00:14:44,360
+two fields and it's strongly typed
+
+454
+00:14:43,360 --> 00:14:47,639
+because i found these field names
+
+455
+00:14:44,639 --> 00:14:49,600
+through reflection
+
+456
+00:14:47,600 --> 00:14:51,679
+indeed in here i could have written for
+
+457
+00:14:49,679 --> 00:14:54,039
+each
+
+458
+00:14:51,039 --> 00:14:56,159
+x var x in
+
+459
+00:14:54,159 --> 00:14:56,360
+q
+
+460
+00:14:57,360 --> 00:15:01,000
+console.write line of x dot company name
+
+461
+00:15:00,000 --> 00:15:04,360
+for example
+
+462
+00:15:01,360 --> 00:15:05,880
+and once the ide gets uh aware enough of
+
+463
+00:15:04,880 --> 00:15:06,279
+these
+
+464
+00:15:05,279 --> 00:15:08,799
+extensions there would actually be
+
+465
+00:15:06,799 --> 00:15:10,480
+statement completion right here so when
+
+466
+00:15:08,480 --> 00:15:11,399
+i said x dot it would show me company
+
+467
+00:15:10,399 --> 00:15:13,919
+name and phone those are the two fields
+
+468
+00:15:11,919 --> 00:15:15,519
+that are available
+
+469
+00:15:13,519 --> 00:15:17,120
+and if i run here you'll see that i just
+
+470
+00:15:15,120 --> 00:15:20,360
+get the company names if i introduce an
+
+471
+00:15:17,360 --> 00:15:22,799
+error you'll see that i actually get an
+
+472
+00:15:20,799 --> 00:15:23,639
+error message the compiler has type
+
+473
+00:15:22,639 --> 00:15:27,839
+checked this stuff so
+
+474
+00:15:23,839 --> 00:15:29,360
+this isn't late bound script-like stuff
+
+475
+00:15:27,360 --> 00:15:32,919
+even though i never said it i never said
+
+476
+00:15:29,919 --> 00:15:34,078
+a type anywhere
+
+477
+00:15:32,078 --> 00:15:36,159
+the type has flowed out of my query and
+
+478
+00:15:34,159 --> 00:15:37,078
+into my for each and the compiler knows
+
+479
+00:15:36,078 --> 00:15:38,279
+what's what's going on
+
+480
+00:15:37,279 --> 00:15:40,639
+so this is sort of like the difference
+
+481
+00:15:38,639 --> 00:15:41,799
+between doing it the easy way with with
+
+482
+00:15:40,799 --> 00:15:43,679
+no typing
+
+483
+00:15:41,679 --> 00:15:45,919
+or doing it the hard way where the type
+
+484
+00:15:43,919 --> 00:15:46,198
+is there but you don't have to say it
+
+485
+00:15:45,198 --> 00:15:48,000
+all the time
+
+486
+00:15:46,000 --> 00:15:51,880
+very nice okay let me just show you a
+
+487
+00:15:48,880 --> 00:15:51,198
+few more things
+
+488
+00:15:53,198 --> 00:15:56,120
+one of the things that's interesting of
+
+489
+00:15:55,120 --> 00:15:57,958
+course in the object world is that we
+
+490
+00:15:56,958 --> 00:16:00,519
+have
+
+491
+00:15:57,519 --> 00:16:03,880
+uh hierarchical data um
+
+492
+00:16:00,880 --> 00:16:04,839
+and i could in here for example well
+
+493
+00:16:03,839 --> 00:16:07,880
+actually let me start
+
+494
+00:16:04,880 --> 00:16:10,839
+in one way um and say from seeing
+
+495
+00:16:07,839 --> 00:16:11,720
+customers and then also from onc.orders
+
+496
+00:16:10,720 --> 00:16:14,519
+because all
+
+497
+00:16:11,519 --> 00:16:14,078
+customers have an orders collection so
+
+498
+00:16:14,078 --> 00:16:16,799
+let me
+
+499
+00:16:14,799 --> 00:16:18,799
+effectively join customers with their
+
+500
+00:16:16,799 --> 00:16:20,639
+own orders
+
+501
+00:16:18,639 --> 00:16:22,880
+um and then from that select out the
+
+502
+00:16:20,880 --> 00:16:26,240
+company name
+
+503
+00:16:22,240 --> 00:16:28,159
+o.order date and o dot total
+
+504
+00:16:26,159 --> 00:16:29,399
+and let's try and run this and you'll
+
+505
+00:16:28,399 --> 00:16:31,759
+see now a sort of
+
+506
+00:16:29,759 --> 00:16:33,919
+sql like shape or result where i have
+
+507
+00:16:31,919 --> 00:16:36,759
+repetition in the outer column
+
+508
+00:16:33,759 --> 00:16:37,000
+okay because i'm seeing the orders of
+
+509
+00:16:36,000 --> 00:16:39,600
+the customers in london
+
+510
+00:16:37,600 --> 00:16:40,360
+um and of course the company name
+
+511
+00:16:39,360 --> 00:16:44,958
+repeats many times
+
+512
+00:16:40,958 --> 00:16:46,240
+um now i could actually introduce
+
+513
+00:16:44,240 --> 00:16:47,000
+another predicate here and say oh dot
+
+514
+00:16:46,000 --> 00:16:51,198
+order date
+
+515
+00:16:47,198 --> 00:16:53,120
+dot year equals 1997.
+
+516
+00:16:51,120 --> 00:16:55,279
+run this and now we only get those
+
+517
+00:16:53,279 --> 00:16:58,679
+orders that are in 1997.
+
+518
+00:16:55,679 --> 00:17:00,480
+um now this is a very sequel like shape
+
+519
+00:16:58,480 --> 00:17:01,078
+or result sort of rectangular do you
+
+520
+00:17:00,078 --> 00:17:03,600
+know what i mean just rows and columns
+
+521
+00:17:01,600 --> 00:17:04,279
+but one of the things that's key about
+
+522
+00:17:03,279 --> 00:17:07,720
+objects is that we have
+
+523
+00:17:04,720 --> 00:17:08,119
+hierarchy hierarchical shapes of data
+
+524
+00:17:07,119 --> 00:17:09,798
+it's very very common when you code with
+
+525
+00:17:08,798 --> 00:17:11,919
+objects you don't have nested
+
+526
+00:17:09,919 --> 00:17:14,519
+collections and so forth
+
+527
+00:17:11,519 --> 00:17:16,720
+and we support that ability in in our
+
+528
+00:17:14,720 --> 00:17:18,318
+query language here as well so i could
+
+529
+00:17:16,318 --> 00:17:21,000
+change this query to say from each
+
+530
+00:17:18,000 --> 00:17:24,599
+customer select and project
+
+531
+00:17:21,599 --> 00:17:24,519
+out company name
+
+532
+00:17:25,519 --> 00:17:30,960
+and then project out orders equals and
+
+533
+00:17:28,960 --> 00:17:35,319
+then let's take this guy
+
+534
+00:17:30,319 --> 00:17:35,798
+and make it a sub query that's nested
+
+535
+00:17:38,798 --> 00:17:42,440
+um like whoops
+
+536
+00:17:45,440 --> 00:17:48,279
+statement completion is still sort of
+
+537
+00:17:47,279 --> 00:17:49,400
+fighting me a little bit on the
+
+538
+00:17:48,400 --> 00:17:50,599
+indentation here
+
+539
+00:17:49,599 --> 00:17:53,798
+but we'll put it where it's supposed to
+
+540
+00:17:50,798 --> 00:17:54,119
+go like so okay now let's try and run
+
+541
+00:17:53,119 --> 00:17:55,000
+this
+
+542
+00:17:54,000 --> 00:17:58,839
+and now you'll see well actually now
+
+543
+00:17:55,839 --> 00:18:00,079
+you'll see first that at the outer level
+
+544
+00:17:58,079 --> 00:18:01,000
+we have company names and orders
+
+545
+00:18:00,000 --> 00:18:04,919
+now my object number is not drilling
+
+546
+00:18:01,919 --> 00:18:05,000
+into the nested collection right now but
+
+547
+00:18:04,000 --> 00:18:08,200
+i can tell it to go in
+
+548
+00:18:05,200 --> 00:18:09,160
+one level deeper here by adding comma
+
+549
+00:18:08,160 --> 00:18:11,038
+one
+
+550
+00:18:09,038 --> 00:18:13,599
+and then run and now you'll see that i
+
+551
+00:18:11,599 --> 00:18:15,440
+actually get a hierarchically shaped
+
+552
+00:18:13,440 --> 00:18:17,279
+result set where i get company name and
+
+553
+00:18:15,279 --> 00:18:18,119
+orders at the outer level and then
+
+554
+00:18:17,119 --> 00:18:20,798
+inside the orders collection i have
+
+555
+00:18:18,798 --> 00:18:22,400
+order dates and totals
+
+556
+00:18:20,400 --> 00:18:23,880
+for each customer and of course i can
+
+557
+00:18:22,880 --> 00:18:25,679
+also apply
+
+558
+00:18:23,679 --> 00:18:27,279
+ordering to this so i could say take
+
+559
+00:18:25,279 --> 00:18:30,200
+these guys and order by
+
+560
+00:18:27,200 --> 00:18:33,880
+old dot total descending
+
+561
+00:18:30,880 --> 00:18:35,919
+in here and now you'll see
+
+562
+00:18:33,919 --> 00:18:37,919
+the result has all of the orders for
+
+563
+00:18:35,919 --> 00:18:39,839
+each customer ordered by descending
+
+564
+00:18:37,839 --> 00:18:42,440
+total so i always see the top
+
+565
+00:18:39,440 --> 00:18:43,079
+the the largest customer first now is
+
+566
+00:18:42,079 --> 00:18:48,759
+there a limit to the number of
+
+567
+00:18:43,759 --> 00:18:50,640
+of uh arrays so you know the dimensions
+
+568
+00:18:48,640 --> 00:18:52,160
+well it's it works for a single
+
+569
+00:18:50,160 --> 00:18:53,000
+dimensional array so any it works for
+
+570
+00:18:52,000 --> 00:18:55,759
+anything that implements innumerable of
+
+571
+00:18:53,759 --> 00:18:57,519
+t and multi-dimensional arrays don't
+
+572
+00:18:55,519 --> 00:19:01,919
+implement inew or volte
+
+573
+00:18:57,919 --> 00:19:02,279
+but it works for a list of customers or
+
+574
+00:19:01,279 --> 00:19:04,720
+any collection that implements
+
+575
+00:19:02,720 --> 00:19:06,640
+innumerability which which
+
+576
+00:19:04,640 --> 00:19:08,240
+almost all of our collections do so it's
+
+577
+00:19:06,240 --> 00:19:12,240
+not just limited to arrays obviously
+
+578
+00:19:08,240 --> 00:19:14,880
+sure just to show you also um
+
+579
+00:19:12,880 --> 00:19:16,798
+a few other things with with this stuff
+
+580
+00:19:14,798 --> 00:19:16,640
+maybe i should show you how it works
+
+581
+00:19:16,640 --> 00:19:19,960
+with
+
+582
+00:19:16,960 --> 00:19:20,359
+uh relational data yes uh because i'm
+
+583
+00:19:19,359 --> 00:19:21,000
+sure people
+
+584
+00:19:20,000 --> 00:19:23,519
+will will be very interested in that so
+
+585
+00:19:21,519 --> 00:19:26,839
+let me try and switch to another project
+
+586
+00:19:23,839 --> 00:19:26,400
+here
+
+587
+00:19:26,400 --> 00:19:30,720
+and talk a little bit about uh
+
+588
+00:19:30,720 --> 00:19:33,200
+this api that we have called d clarity
+
+589
+00:19:33,200 --> 00:19:37,839
+oh sorry d
+
+590
+00:19:33,839 --> 00:19:40,038
+link which is uh the next version
+
+591
+00:19:37,038 --> 00:19:43,079
+of the future version of ado.net that
+
+592
+00:19:40,079 --> 00:19:45,519
+supports strongly typed
+
+593
+00:19:43,519 --> 00:19:46,859
+language integrated data access
+
+594
+00:19:45,859 --> 00:19:48,960
+[Music]
+
+595
+00:19:46,960 --> 00:19:50,960
+effectively you can use this in in one
+
+596
+00:19:48,960 --> 00:19:53,839
+of two ways you can write a bunch of
+
+597
+00:19:50,839 --> 00:19:54,200
+classes like customers and orders you
+
+598
+00:19:53,200 --> 00:19:56,480
+can write them yourself and then you can
+
+599
+00:19:54,480 --> 00:19:58,319
+put attributes on the classes that say
+
+600
+00:19:56,319 --> 00:19:59,160
+this class corresponds to this table in
+
+601
+00:19:58,160 --> 00:20:00,200
+my database
+
+602
+00:19:59,200 --> 00:20:01,400
+and on the properties you can put
+
+603
+00:20:00,400 --> 00:20:03,839
+attributes that say this property
+
+604
+00:20:01,839 --> 00:20:04,200
+corresponds to this column in the
+
+605
+00:20:03,200 --> 00:20:05,159
+database
+
+606
+00:20:04,159 --> 00:20:07,919
+and then we can persist those things for
+
+607
+00:20:05,919 --> 00:20:09,599
+you in a database
+
+608
+00:20:07,599 --> 00:20:11,519
+but more typically is is probably that
+
+609
+00:20:09,519 --> 00:20:12,359
+you would point at an existing database
+
+610
+00:20:11,359 --> 00:20:15,798
+and say please give me
+
+611
+00:20:12,798 --> 00:20:16,119
+an object-oriented view of this database
+
+612
+00:20:15,119 --> 00:20:17,319
+yes um
+
+613
+00:20:16,319 --> 00:20:20,919
+and that's what i've done here with the
+
+614
+00:20:17,919 --> 00:20:23,798
+with the same northwind database um
+
+615
+00:20:20,798 --> 00:20:25,440
+and and effectively what comes out of
+
+616
+00:20:23,440 --> 00:20:28,279
+that then if we look at the code here
+
+617
+00:20:25,279 --> 00:20:30,159
+um is a strongly typed view of my
+
+618
+00:20:28,159 --> 00:20:31,159
+database where i get a class called
+
+619
+00:20:30,159 --> 00:20:33,279
+northwind
+
+620
+00:20:31,279 --> 00:20:34,279
+that contains all of the tables of the
+
+621
+00:20:33,279 --> 00:20:37,640
+database okay
+
+622
+00:20:34,640 --> 00:20:39,599
+typed as table of blah where blah then
+
+623
+00:20:37,599 --> 00:20:41,919
+is order or customer or whatever and
+
+624
+00:20:39,919 --> 00:20:43,839
+then if we scroll down a little bit
+
+625
+00:20:41,839 --> 00:20:45,529
+you'll see down here
+
+626
+00:20:43,529 --> 00:20:48,038
+[Music]
+
+627
+00:20:45,038 --> 00:20:49,000
+here is a class customer that has a
+
+628
+00:20:48,000 --> 00:20:52,359
+bunch of storage for
+
+629
+00:20:49,359 --> 00:20:52,159
+the fields of a customer object uh or
+
+630
+00:20:52,159 --> 00:20:54,640
+the
+
+631
+00:20:52,640 --> 00:20:55,400
+effectively corresponding to the columns
+
+632
+00:20:54,400 --> 00:20:57,599
+in the database and a bunch of
+
+633
+00:20:55,599 --> 00:20:59,279
+properties allow me to access
+
+634
+00:20:57,279 --> 00:21:01,599
+and we also have the relations map so
+
+635
+00:20:59,599 --> 00:21:02,599
+customers has a nested orders relation
+
+636
+00:21:01,599 --> 00:21:04,960
+that actually maps to
+
+637
+00:21:02,960 --> 00:21:06,720
+join and with the orders table in the
+
+638
+00:21:04,720 --> 00:21:10,558
+database beautiful and so forth
+
+639
+00:21:06,558 --> 00:21:12,480
+so using this stuff now i can
+
+640
+00:21:10,480 --> 00:21:14,558
+i can actually write and access this
+
+641
+00:21:12,558 --> 00:21:14,240
+database and write language integrated
+
+642
+00:21:14,240 --> 00:21:17,798
+queries
+
+643
+00:21:14,798 --> 00:21:19,599
+okay but i'm just going to start out by
+
+644
+00:21:17,599 --> 00:21:21,200
+newing up a north wind
+
+645
+00:21:19,200 --> 00:21:22,839
+as you see here then i'm going to attach
+
+646
+00:21:21,839 --> 00:21:24,640
+a log
+
+647
+00:21:22,640 --> 00:21:26,640
+to my north wind connection and you
+
+648
+00:21:24,640 --> 00:21:28,480
+should think of this as a strongly type
+
+649
+00:21:26,480 --> 00:21:30,240
+connection to my database
+
+650
+00:21:28,240 --> 00:21:31,880
+this effectively gives me a strongly
+
+651
+00:21:30,880 --> 00:21:34,919
+typed view
+
+652
+00:21:31,919 --> 00:21:35,400
+of the data that's in there now i can
+
+653
+00:21:34,400 --> 00:21:38,119
+just say
+
+654
+00:21:35,119 --> 00:21:39,000
+db dot and then i get oops db dot i get
+
+655
+00:21:38,000 --> 00:21:42,599
+statement completion you see
+
+656
+00:21:39,599 --> 00:21:42,558
+here we have you know customers uh right
+
+657
+00:21:42,558 --> 00:21:45,880
+here
+
+658
+00:21:42,880 --> 00:21:46,279
+i can simply just say give me the whole
+
+659
+00:21:45,279 --> 00:21:48,960
+customers table and then let's run the
+
+660
+00:21:46,960 --> 00:21:50,240
+object number again
+
+661
+00:21:48,240 --> 00:21:52,880
+uh to see what what happens there and
+
+662
+00:21:50,880 --> 00:21:55,640
+then the first thing you see in the dump
+
+663
+00:21:52,640 --> 00:21:56,119
+is that we spit out because we attach
+
+664
+00:21:55,119 --> 00:21:58,720
+the log we spit out the query that we
+
+665
+00:21:56,720 --> 00:22:00,480
+sent to the database which consisted of
+
+666
+00:21:58,480 --> 00:22:02,240
+select address city company name blah
+
+667
+00:22:00,240 --> 00:22:03,000
+blah blah from customers
+
+668
+00:22:02,000 --> 00:22:04,359
+and then here we see all of the
+
+669
+00:22:03,359 --> 00:22:06,960
+customers coming back and effectively
+
+670
+00:22:04,960 --> 00:22:08,079
+what we do is
+
+671
+00:22:06,079 --> 00:22:10,319
+we fire off the query and then we take
+
+672
+00:22:08,319 --> 00:22:12,880
+the incoming result set and we knew up
+
+673
+00:22:10,880 --> 00:22:14,798
+objects from the result set as they come
+
+674
+00:22:12,798 --> 00:22:17,558
+in
+
+675
+00:22:14,558 --> 00:22:18,038
+now let me now try and write exactly the
+
+676
+00:22:17,038 --> 00:22:20,079
+same query but this
+
+677
+00:22:18,079 --> 00:22:24,880
+time against relational data so whoops
+
+678
+00:22:20,880 --> 00:22:24,558
+so i'm going to write froms
+
+679
+00:22:24,558 --> 00:22:32,880
+from c in db.customers where c dot city
+
+680
+00:22:28,880 --> 00:22:35,319
+equals london select
+
+681
+00:22:32,319 --> 00:22:35,679
+c dot company name
+
+682
+00:22:35,679 --> 00:22:40,759
+so just what we had before absolutely
+
+683
+00:22:37,759 --> 00:22:41,400
+and let's try and run this and here you
+
+684
+00:22:40,400 --> 00:22:42,038
+see
+
+685
+00:22:41,038 --> 00:22:45,960
+first the query that goes across is
+
+686
+00:22:42,960 --> 00:22:46,119
+select company name from customers where
+
+687
+00:22:45,119 --> 00:22:48,960
+city equals blah
+
+688
+00:22:46,960 --> 00:22:50,798
+and then back comes exactly the same
+
+689
+00:22:48,798 --> 00:22:52,640
+city and this
+
+690
+00:22:50,640 --> 00:22:54,880
+effectively shows you how using
+
+691
+00:22:52,880 --> 00:22:57,079
+precisely the same
+
+692
+00:22:54,079 --> 00:23:01,440
+query syntax i can
+
+693
+00:22:57,440 --> 00:23:04,038
+uh query either in memory data
+
+694
+00:23:01,038 --> 00:23:06,720
+in an array or a database um
+
+695
+00:23:04,720 --> 00:23:07,480
+and that's sort of really the power of
+
+696
+00:23:06,480 --> 00:23:09,839
+language integrated query is that it
+
+697
+00:23:07,839 --> 00:23:12,038
+gives you unification
+
+698
+00:23:09,038 --> 00:23:14,240
+across the different domains of data
+
+699
+00:23:12,240 --> 00:23:15,480
+now we do a bunch more stuff in the
+
+700
+00:23:14,480 --> 00:23:17,919
+d-link api
+
+701
+00:23:15,919 --> 00:23:19,759
+we can do we can do change tracking to
+
+702
+00:23:17,759 --> 00:23:20,200
+the entities that you fetch from the
+
+703
+00:23:19,200 --> 00:23:21,000
+database
+
+704
+00:23:20,000 --> 00:23:24,759
+we can push the changes back by
+
+705
+00:23:21,759 --> 00:23:25,079
+generating dynamic sql or calling stored
+
+706
+00:23:24,079 --> 00:23:27,919
+procedures to do the updates
+
+707
+00:23:25,919 --> 00:23:29,279
+and so forth there's a whole bunch of
+
+708
+00:23:27,279 --> 00:23:31,599
+depth be behind that too and that's all
+
+709
+00:23:29,599 --> 00:23:33,679
+included also in the preview bits that
+
+710
+00:23:31,679 --> 00:23:35,038
+that we've uh
+
+711
+00:23:33,038 --> 00:23:36,519
+that we're giving out at the pdc okay
+
+712
+00:23:35,519 --> 00:23:38,960
+final thing i'm gonna show is how does
+
+713
+00:23:36,960 --> 00:23:40,240
+this work with with xml
+
+714
+00:23:38,240 --> 00:23:42,558
+there's a lot of stuff here um let's go
+
+715
+00:23:40,558 --> 00:23:45,079
+back to
+
+716
+00:23:42,079 --> 00:23:46,440
+a little demo project here and then just
+
+717
+00:23:45,440 --> 00:23:51,240
+try and write
+
+718
+00:23:46,240 --> 00:23:53,519
+a little bit of xml code here
+
+719
+00:23:51,519 --> 00:23:54,679
+i'm just going to new up an xml element
+
+720
+00:23:53,679 --> 00:23:58,720
+using the
+
+721
+00:23:54,720 --> 00:24:01,240
+uh the x-link
+
+722
+00:23:58,240 --> 00:24:02,279
+xlinq api that we have that gives us
+
+723
+00:24:01,279 --> 00:24:06,880
+language integrated query
+
+724
+00:24:02,880 --> 00:24:08,558
+for xml and effectively this
+
+725
+00:24:06,558 --> 00:24:10,880
+think of this api as doing two new
+
+726
+00:24:08,880 --> 00:24:12,079
+things for xml
+
+727
+00:24:10,079 --> 00:24:14,319
+first it gives you language integrated
+
+728
+00:24:12,319 --> 00:24:16,079
+query capabilities
+
+729
+00:24:14,079 --> 00:24:17,640
+which are as powerful really as xpath
+
+730
+00:24:16,640 --> 00:24:19,119
+and
+
+731
+00:24:17,119 --> 00:24:20,119
+query it's like having the power of x
+
+732
+00:24:19,119 --> 00:24:23,240
+query
+
+733
+00:24:20,240 --> 00:24:24,759
+inside c sharp or vb um the other thing
+
+734
+00:24:23,759 --> 00:24:27,240
+we do
+
+735
+00:24:24,240 --> 00:24:28,038
+with the with the xlink api is that we
+
+736
+00:24:27,038 --> 00:24:30,960
+we take all of the lessons we've learned
+
+737
+00:24:28,960 --> 00:24:34,880
+from the w3c dom
+
+738
+00:24:30,880 --> 00:24:37,240
+over the last 10 years of usage and we
+
+739
+00:24:34,240 --> 00:24:38,119
+and we fixed them all all of those
+
+740
+00:24:37,119 --> 00:24:39,798
+problems like better handling of name
+
+741
+00:24:38,798 --> 00:24:42,919
+spaces
+
+742
+00:24:39,919 --> 00:24:43,960
+less memory consumption less document
+
+743
+00:24:42,960 --> 00:24:46,839
+centricity
+
+744
+00:24:43,839 --> 00:24:47,079
+etc etc a bunch of different things that
+
+745
+00:24:46,079 --> 00:24:48,759
+people have complained about over the
+
+746
+00:24:47,759 --> 00:24:50,480
+years
+
+747
+00:24:48,480 --> 00:24:52,640
+um well that's great and so this this
+
+748
+00:24:50,640 --> 00:24:54,319
+creates a whole new exciting uh
+
+749
+00:24:52,319 --> 00:24:56,558
+programming experience for xml so let me
+
+750
+00:24:54,558 --> 00:24:56,319
+just try and first new up an element and
+
+751
+00:24:56,319 --> 00:24:59,880
+then
+
+752
+00:24:56,880 --> 00:25:00,200
+just do console.writeline of that xml
+
+753
+00:24:59,200 --> 00:25:02,720
+element and see what happens when we run
+
+754
+00:25:00,720 --> 00:25:04,240
+we just get an empty
+
+755
+00:25:02,240 --> 00:25:06,880
+xml element called result so here's one
+
+756
+00:25:04,880 --> 00:25:08,319
+little change from the dom is the
+
+757
+00:25:06,319 --> 00:25:09,400
+tostring method of an xml element gives
+
+758
+00:25:08,400 --> 00:25:11,599
+you the xml
+
+759
+00:25:09,599 --> 00:25:12,759
+nice which seems a fairly logical thing
+
+760
+00:25:11,759 --> 00:25:14,798
+to do but but
+
+761
+00:25:12,798 --> 00:25:16,960
+you know we haven't done that before um
+
+762
+00:25:14,960 --> 00:25:17,480
+now one of the one of the interesting
+
+763
+00:25:16,480 --> 00:25:21,440
+things about
+
+764
+00:25:17,440 --> 00:25:22,679
+uh x-link is that an xml element has a
+
+765
+00:25:21,679 --> 00:25:27,960
+constructor
+
+766
+00:25:22,960 --> 00:25:29,440
+that allows you to specify the contents
+
+767
+00:25:27,440 --> 00:25:30,599
+of the element right there as you're
+
+768
+00:25:29,599 --> 00:25:32,720
+newing it up
+
+769
+00:25:30,720 --> 00:25:34,720
+so instead of having this very
+
+770
+00:25:32,720 --> 00:25:36,480
+imperative style of construction that we
+
+771
+00:25:34,480 --> 00:25:37,159
+have today where you first create an
+
+772
+00:25:36,159 --> 00:25:39,279
+element and then add
+
+773
+00:25:37,279 --> 00:25:40,759
+child at child and then append that to
+
+774
+00:25:39,759 --> 00:25:42,720
+something else
+
+775
+00:25:40,720 --> 00:25:44,720
+well here you just get to knew it up and
+
+776
+00:25:42,720 --> 00:25:45,480
+then in the constructor call say what
+
+777
+00:25:44,480 --> 00:25:48,839
+you want to put in it
+
+778
+00:25:45,839 --> 00:25:50,319
+okay so one thing i might want to put in
+
+779
+00:25:48,319 --> 00:25:52,159
+it is the string hello
+
+780
+00:25:50,159 --> 00:25:54,480
+for example and now i'm just creating an
+
+781
+00:25:52,480 --> 00:25:55,079
+element called result with
+
+782
+00:25:54,079 --> 00:25:57,839
+the content hello and if i do that
+
+783
+00:25:55,839 --> 00:26:00,200
+you'll see i get a little
+
+784
+00:25:57,200 --> 00:26:01,079
+result with the console hello um i could
+
+785
+00:26:00,079 --> 00:26:05,759
+try and put in
+
+786
+00:26:01,759 --> 00:26:07,440
+an attribute called hello
+
+787
+00:26:05,440 --> 00:26:09,759
+with the value five for example let's
+
+788
+00:26:07,759 --> 00:26:13,599
+try and run that
+
+789
+00:26:09,599 --> 00:26:15,200
+oops up i should say new x attribute
+
+790
+00:26:13,200 --> 00:26:17,679
+let's try and run that and now i get
+
+791
+00:26:15,679 --> 00:26:19,519
+result with an attribute
+
+792
+00:26:17,519 --> 00:26:22,279
+called hello with the value five i could
+
+793
+00:26:19,279 --> 00:26:24,000
+also put in a nested element
+
+794
+00:26:22,000 --> 00:26:25,640
+called hello containing the value five
+
+795
+00:26:24,640 --> 00:26:27,599
+and if i run that
+
+796
+00:26:25,599 --> 00:26:29,599
+i get result containing hello with the
+
+797
+00:26:27,599 --> 00:26:30,679
+value five very nice as you sort of see
+
+798
+00:26:29,679 --> 00:26:32,400
+it's fairly
+
+799
+00:26:30,400 --> 00:26:33,319
+intuitive how you put together the xml
+
+800
+00:26:32,319 --> 00:26:34,679
+here and you can shape it but the real
+
+801
+00:26:33,679 --> 00:26:36,798
+kicker is
+
+802
+00:26:34,798 --> 00:26:38,720
+if what i give as an argument here is
+
+803
+00:26:36,720 --> 00:26:39,480
+not a string nor an element or an
+
+804
+00:26:38,480 --> 00:26:40,279
+attribute
+
+805
+00:26:39,279 --> 00:26:42,640
+but it's something that can be
+
+806
+00:26:40,640 --> 00:26:45,640
+enumerated
+
+807
+00:26:42,640 --> 00:26:46,200
+like a query then the constructor will
+
+808
+00:26:45,200 --> 00:26:49,400
+enumerate the query
+
+809
+00:26:46,400 --> 00:26:50,038
+and make that the contents fantastic so
+
+810
+00:26:49,038 --> 00:26:55,000
+now i could say
+
+811
+00:26:50,000 --> 00:26:55,720
+from c in customers
+
+812
+00:26:56,720 --> 00:27:06,079
+select new x element
+
+813
+00:27:00,079 --> 00:27:09,480
+off contact comma c dot company
+
+814
+00:27:06,480 --> 00:27:10,679
+and let's try and run this guy down and
+
+815
+00:27:09,679 --> 00:27:13,720
+boom
+
+816
+00:27:10,720 --> 00:27:13,359
+now i turned my little customer array
+
+817
+00:27:13,359 --> 00:27:16,839
+into
+
+818
+00:27:13,839 --> 00:27:17,240
+an xml document containing all other
+
+819
+00:27:16,240 --> 00:27:21,919
+company names fantastic
+
+820
+00:27:17,919 --> 00:27:22,038
+and of course i could control the shape
+
+821
+00:27:21,038 --> 00:27:24,558
+of the xml in here
+
+822
+00:27:22,558 --> 00:27:27,319
+i might for example say well what i
+
+823
+00:27:24,319 --> 00:27:27,398
+really want is
+
+824
+00:27:28,398 --> 00:27:36,440
+an attribute called name
+
+825
+00:27:31,440 --> 00:27:36,720
+containing the company name whoops and
+
+826
+00:27:36,720 --> 00:27:39,000
+and another attribute
+
+827
+00:27:40,000 --> 00:27:48,119
+called phone let's get rid of that
+
+828
+00:27:43,119 --> 00:27:51,240
+containing c dot phone
+
+829
+00:27:48,240 --> 00:27:52,119
+there let's try and run this guy and now
+
+830
+00:27:51,119 --> 00:27:55,798
+you see the shape changes
+
+831
+00:27:52,798 --> 00:27:56,038
+i'm basically seeing contact name equals
+
+832
+00:27:55,038 --> 00:27:57,480
+blah phone equals blog name it goes
+
+833
+00:27:56,480 --> 00:28:00,919
+blackboard
+
+834
+00:27:57,919 --> 00:28:01,079
+and finally i could of course add a
+
+835
+00:28:00,079 --> 00:28:04,038
+filter here
+
+836
+00:28:01,038 --> 00:28:07,558
+and say where c dot city
+
+837
+00:28:04,558 --> 00:28:07,599
+equals london
+
+838
+00:28:07,599 --> 00:28:12,000
+and try and run this and now i'm
+
+839
+00:28:10,000 --> 00:28:13,000
+actually sort of back to the same query
+
+840
+00:28:12,000 --> 00:28:15,759
+i was writing before right
+
+841
+00:28:13,759 --> 00:28:16,839
+but this time it comes out as an xml
+
+842
+00:28:15,839 --> 00:28:19,960
+document so you see
+
+843
+00:28:16,960 --> 00:28:20,038
+again the power of it here is that i can
+
+844
+00:28:19,038 --> 00:28:22,558
+take data from one domain
+
+845
+00:28:20,558 --> 00:28:24,480
+query it and produce data in another
+
+846
+00:28:22,480 --> 00:28:25,398
+domain completely seamlessly which is
+
+847
+00:28:24,398 --> 00:28:26,599
+something that we've never been able to
+
+848
+00:28:25,599 --> 00:28:30,480
+do
+
+849
+00:28:26,480 --> 00:28:32,558
+um so that's sort of a real brief
+
+850
+00:28:30,558 --> 00:28:33,000
+overview of the stuff that we're
+
+851
+00:28:32,000 --> 00:28:34,679
+delivering there's a lot of depth here
+
+852
+00:28:33,679 --> 00:28:35,558
+where we're
+
+853
+00:28:34,558 --> 00:28:37,759
+we're giving out a bunch of
+
+854
+00:28:35,759 --> 00:28:38,519
+documentation samples that come with
+
+855
+00:28:37,519 --> 00:28:40,319
+this so
+
+856
+00:28:38,319 --> 00:28:41,319
+you know i encourage everybody to like
+
+857
+00:28:40,319 --> 00:28:42,839
+get a hold of it absolutely and play
+
+858
+00:28:41,839 --> 00:28:45,240
+with it
+
+859
+00:28:42,240 --> 00:28:47,359
+yeah now the um in
+
+860
+00:28:45,359 --> 00:28:49,119
+future incarnations it's going to be
+
+861
+00:28:47,119 --> 00:28:52,359
+more strongly typed in the ide
+
+862
+00:28:49,359 --> 00:28:52,079
+yeah before you say from c in customers
+
+863
+00:28:52,079 --> 00:28:55,960
+then when i say c
+
+864
+00:28:52,960 --> 00:28:57,279
+dot oh you will see statement completion
+
+865
+00:28:55,279 --> 00:28:59,038
+yes so so far
+
+866
+00:28:57,038 --> 00:29:01,279
+you see we have like the colorization in
+
+867
+00:28:59,279 --> 00:29:03,519
+there and sort of some basic stuff but
+
+868
+00:29:01,519 --> 00:29:05,839
+yes that's why this is preview bits and
+
+869
+00:29:03,839 --> 00:29:08,919
+not final products
+
+870
+00:29:05,919 --> 00:29:10,159
+absolutely so for so for example when i
+
+871
+00:29:08,159 --> 00:29:12,480
+want to hit say the channel 9 database
+
+872
+00:29:10,480 --> 00:29:13,079
+because i'm definitely you know when the
+
+873
+00:29:12,079 --> 00:29:14,440
+time comes i'm going to want to do this
+
+874
+00:29:13,440 --> 00:29:17,079
+kind of stuff
+
+875
+00:29:14,079 --> 00:29:18,440
+yes yeah sequel cursors i mean i
+
+876
+00:29:17,440 --> 00:29:20,880
+i'm always going to have to do that in
+
+877
+00:29:18,880 --> 00:29:22,960
+sql but i would imagine right
+
+878
+00:29:20,960 --> 00:29:24,880
+um so i don't know why i said that but
+
+879
+00:29:22,880 --> 00:29:26,000
+no way
+
+880
+00:29:24,000 --> 00:29:28,240
+you can do it do that okay yeah
+
+881
+00:29:26,240 --> 00:29:29,079
+fantastic you run our tool you point it
+
+882
+00:29:28,079 --> 00:29:32,519
+at your database that gives you an
+
+883
+00:29:29,519 --> 00:29:33,000
+object view of your of your channel line
+
+884
+00:29:32,000 --> 00:29:34,759
+database and then off you are coding in
+
+885
+00:29:33,759 --> 00:29:38,880
+c sharp beautiful
+
+886
+00:29:34,880 --> 00:29:42,720
+yeah or maybe ultimately this will be
+
+887
+00:29:38,720 --> 00:29:44,319
+this is not a c-sharp thing this is a
+
+888
+00:29:42,319 --> 00:29:46,319
+net thing so this is a capability that
+
+889
+00:29:44,319 --> 00:29:47,319
+we're building for c-sharp as well as
+
+890
+00:29:46,319 --> 00:29:49,519
+for vb
+
+891
+00:29:47,519 --> 00:29:50,200
+cool i mean there's still i mean the
+
+892
+00:29:49,200 --> 00:29:52,798
+point is there's still going to be
+
+893
+00:29:50,798 --> 00:29:53,079
+a lot of work that you do in the
+
+894
+00:29:52,079 --> 00:29:54,759
+database right i mean you're going to
+
+895
+00:29:53,759 --> 00:29:55,000
+have
+
+896
+00:29:54,000 --> 00:29:58,679
+to go in you're going to have to write
+
+897
+00:29:55,679 --> 00:30:01,079
+compound stored procedures and cursors
+
+898
+00:29:58,079 --> 00:30:04,519
+this is a great way to have um
+
+899
+00:30:01,519 --> 00:30:07,640
+say on a team you can have the dv
+
+900
+00:30:04,640 --> 00:30:09,839
+guy create these classes and import
+
+901
+00:30:07,839 --> 00:30:11,359
+stuff and everything and then now you
+
+902
+00:30:09,359 --> 00:30:12,440
+have a c-sharp guy can come in actually
+
+903
+00:30:11,440 --> 00:30:13,880
+it'll make sense to him oh yeah i need
+
+904
+00:30:12,880 --> 00:30:14,359
+to
+
+905
+00:30:13,359 --> 00:30:15,880
+run a query about i don't have to ask
+
+906
+00:30:14,880 --> 00:30:17,919
+this person about what's in the
+
+907
+00:30:15,919 --> 00:30:19,038
+customer's table
+
+908
+00:30:17,038 --> 00:30:20,359
+right i can do these queries sure simple
+
+909
+00:30:19,359 --> 00:30:24,319
+query i think
+
+910
+00:30:20,319 --> 00:30:26,240
+you know there's not one single answer
+
+911
+00:30:24,240 --> 00:30:26,000
+that fits everybody in the database
+
+912
+00:30:26,000 --> 00:30:29,880
+space some people
+
+913
+00:30:26,880 --> 00:30:31,119
+believe in doing all the logic in the
+
+914
+00:30:29,119 --> 00:30:33,038
+database and only calling sprock's
+
+915
+00:30:31,038 --> 00:30:35,919
+even for queries which which of course
+
+916
+00:30:33,919 --> 00:30:37,599
+limits the query ability the
+
+917
+00:30:35,599 --> 00:30:38,599
+the dynamicness of the queries obviously
+
+918
+00:30:37,599 --> 00:30:40,720
+absolutely
+
+919
+00:30:38,720 --> 00:30:42,480
+other organization i see exactly the
+
+920
+00:30:40,480 --> 00:30:43,000
+reverse you know they believe in putting
+
+921
+00:30:42,000 --> 00:30:46,919
+all of the logic in the middle tier
+
+922
+00:30:43,919 --> 00:30:48,720
+this becomes very useful for that or
+
+923
+00:30:46,720 --> 00:30:51,558
+what i probably see most typically
+
+924
+00:30:48,558 --> 00:30:53,599
+is that you limit all modifications of
+
+925
+00:30:51,599 --> 00:30:55,519
+the database to sprock's
+
+926
+00:30:53,519 --> 00:30:57,759
+but you do your querying using dynamic
+
+927
+00:30:55,759 --> 00:30:58,359
+sql
+
+928
+00:30:57,359 --> 00:31:00,558
+and that's actually a model that we
+
+929
+00:30:58,558 --> 00:31:03,398
+support very well
+
+930
+00:31:00,398 --> 00:31:04,038
+because you can you can i i talked about
+
+931
+00:31:03,038 --> 00:31:05,079
+how we can do dynamic
+
+932
+00:31:04,079 --> 00:31:07,759
+change tracking on these entities that
+
+933
+00:31:05,759 --> 00:31:08,359
+you fetch from the database but then
+
+934
+00:31:07,359 --> 00:31:10,960
+when it comes time to push the changes
+
+935
+00:31:08,960 --> 00:31:12,240
+back to the database
+
+936
+00:31:10,240 --> 00:31:14,480
+we can either generate insert update or
+
+937
+00:31:12,480 --> 00:31:15,798
+delete statements or we can call sprocks
+
+938
+00:31:14,798 --> 00:31:18,679
+that do
+
+939
+00:31:15,679 --> 00:31:19,079
+all of the modifications of the database
+
+940
+00:31:18,079 --> 00:31:22,759
+fantastic
+
+941
+00:31:19,759 --> 00:31:23,398
+so this is great stuff yeah i should
+
+942
+00:31:22,398 --> 00:31:25,519
+point out like
+
+943
+00:31:23,519 --> 00:31:26,440
+one of the other things and anderson get
+
+944
+00:31:25,440 --> 00:31:27,960
+to share this example is you can use it
+
+945
+00:31:26,960 --> 00:31:30,279
+on
+
+946
+00:31:27,279 --> 00:31:33,398
+any data type so you really like sql
+
+947
+00:31:30,398 --> 00:31:34,359
+it has great programming uh capability
+
+948
+00:31:33,359 --> 00:31:36,159
+you can
+
+949
+00:31:34,159 --> 00:31:37,398
+go and reflect your registry and say
+
+950
+00:31:36,398 --> 00:31:40,359
+select all
+
+951
+00:31:37,359 --> 00:31:41,240
+where keys have been updated in the last
+
+952
+00:31:40,240 --> 00:31:43,919
+couple days and find spyware on your
+
+953
+00:31:41,919 --> 00:31:44,359
+machine
+
+954
+00:31:43,359 --> 00:31:46,960
+someone would have to build an object
+
+955
+00:31:44,960 --> 00:31:49,798
+encapsulation of the registry first
+
+956
+00:31:46,798 --> 00:31:50,359
+but sure it is entirely possible for
+
+957
+00:31:49,359 --> 00:31:52,159
+today
+
+958
+00:31:50,159 --> 00:31:54,398
+and with reflection anything any
+
+959
+00:31:52,398 --> 00:31:55,480
+absolutely any collection so if you have
+
+960
+00:31:54,480 --> 00:31:57,919
+you know you're creating a windows app
+
+961
+00:31:55,919 --> 00:31:58,519
+and there's 20 buttons on your screen
+
+962
+00:31:57,519 --> 00:32:00,558
+that you want to disable
+
+963
+00:31:58,558 --> 00:32:02,880
+you can say you know find all buttons
+
+964
+00:32:00,880 --> 00:32:05,079
+where the type is button
+
+965
+00:32:02,079 --> 00:32:06,119
+and set enabled equals to false so it's
+
+966
+00:32:05,119 --> 00:32:08,798
+it really is the power of sql
+
+967
+00:32:06,798 --> 00:32:09,000
+programming
+
+968
+00:32:08,000 --> 00:32:11,599
+across any of the different data types
+
+969
+00:32:09,599 --> 00:32:14,038
+whether it's objects
+
+970
+00:32:11,038 --> 00:32:16,398
+uh data or xml it's it if anybody that's
+
+971
+00:32:14,398 --> 00:32:19,319
+programming sql will absolutely love it
+
+972
+00:32:16,319 --> 00:32:22,519
+so now
+
+973
+00:32:19,519 --> 00:32:26,720
+could you do reflect this against other
+
+974
+00:32:22,720 --> 00:32:26,159
+uh objects in c sharp other assemblies
+
+975
+00:32:26,159 --> 00:32:28,720
+like i mean
+
+976
+00:32:26,720 --> 00:32:30,159
+oh yeah it's another one one of the
+
+977
+00:32:28,159 --> 00:32:32,240
+little demos i do is like a query to
+
+978
+00:32:30,240 --> 00:32:34,159
+determine what are the methods of
+
+979
+00:32:32,159 --> 00:32:35,558
+the string type and then you know i
+
+980
+00:32:34,558 --> 00:32:39,839
+don't know if you want me to show you
+
+981
+00:32:35,839 --> 00:32:42,759
+okay okay okay let's let's let's do that
+
+982
+00:32:39,759 --> 00:32:44,558
+one yeah
+
+983
+00:32:42,558 --> 00:32:48,720
+let's got this out here and then let's
+
+984
+00:32:44,720 --> 00:32:48,038
+put in uh our object number
+
+985
+00:32:49,038 --> 00:32:53,359
+right of cue again here okay so let's
+
+986
+00:32:51,359 --> 00:32:54,038
+like write a query here
+
+987
+00:32:53,038 --> 00:32:56,398
+and we want to find out what are the
+
+988
+00:32:54,398 --> 00:32:59,079
+methods of the string type
+
+989
+00:32:56,079 --> 00:33:02,119
+so we'll say from m in
+
+990
+00:32:59,119 --> 00:33:05,319
+type of string dot get
+
+991
+00:33:02,319 --> 00:33:08,839
+methods which is
+
+992
+00:33:05,839 --> 00:33:09,240
+returns an array of method infos right
+
+993
+00:33:08,240 --> 00:33:10,359
+that we're calling m
+
+994
+00:33:09,359 --> 00:33:14,798
+and then from each m we're going to
+
+995
+00:33:10,798 --> 00:33:15,159
+select m.name
+
+996
+00:33:14,159 --> 00:33:17,679
+and let's just start with that as our
+
+997
+00:33:15,679 --> 00:33:19,759
+query let's try and run it
+
+998
+00:33:17,759 --> 00:33:21,679
+and then boom here we see all of the
+
+999
+00:33:19,679 --> 00:33:22,038
+methods defined in
+
+1000
+00:33:21,038 --> 00:33:24,798
+type string sure of course the first
+
+1001
+00:33:22,798 --> 00:33:26,640
+thing we notice is that they're not
+
+1002
+00:33:24,640 --> 00:33:30,079
+sorted alphabetically
+
+1003
+00:33:26,079 --> 00:33:35,960
+so so let's sort them order by
+
+1004
+00:33:30,960 --> 00:33:37,279
+m.name see that now they all come out
+
+1005
+00:33:35,279 --> 00:33:39,759
+alphabetically now we might notice oh
+
+1006
+00:33:37,759 --> 00:33:39,119
+we're just interested in instance
+
+1007
+00:33:39,119 --> 00:33:42,679
+methods
+
+1008
+00:33:39,679 --> 00:33:43,240
+on string okay so we don't want compare
+
+1009
+00:33:42,240 --> 00:33:44,038
+and concat
+
+1010
+00:33:43,038 --> 00:33:46,960
+and whatever the other static methods
+
+1011
+00:33:44,960 --> 00:33:50,398
+are so we can add a where clause
+
+1012
+00:33:46,398 --> 00:33:51,240
+where not m is static
+
+1013
+00:33:50,240 --> 00:33:53,919
+because is static is a property on a
+
+1014
+00:33:51,919 --> 00:33:56,839
+method info and we don't we want all the
+
+1015
+00:33:53,839 --> 00:33:58,159
+non-static ones
+
+1016
+00:33:56,159 --> 00:33:59,000
+and now you see that those guys went
+
+1017
+00:33:58,000 --> 00:34:00,440
+away up here
+
+1018
+00:33:59,440 --> 00:34:02,960
+and then maybe the next thing we notice
+
+1019
+00:34:00,960 --> 00:34:06,640
+is uh gosh there are
+
+1020
+00:34:02,640 --> 00:34:09,798
+six index offs because of overload
+
+1021
+00:34:06,798 --> 00:34:10,918
+so maybe what we want to do is we want
+
+1022
+00:34:09,918 --> 00:34:14,960
+to say
+
+1023
+00:34:10,960 --> 00:34:17,239
+group m by m.name so
+
+1024
+00:34:14,239 --> 00:34:19,440
+group them up by name okay
+
+1025
+00:34:17,440 --> 00:34:21,760
+and we can stop there and just see what
+
+1026
+00:34:19,760 --> 00:34:23,039
+the shape of what comes out
+
+1027
+00:34:21,039 --> 00:34:23,320
+is
+
+1028
+00:34:24,320 --> 00:34:27,159
+and what we see here now is we get a
+
+1029
+00:34:26,159 --> 00:34:28,760
+sequence of something that has a key
+
+1030
+00:34:27,760 --> 00:34:31,719
+field and a group
+
+1031
+00:34:28,719 --> 00:34:33,838
+field the key is the thing we group by
+
+1032
+00:34:31,838 --> 00:34:36,838
+the group fielder all the all of the
+
+1033
+00:34:33,838 --> 00:34:37,000
+elements in that group
+
+1034
+00:34:36,000 --> 00:34:39,679
+and now we could try and shape this a
+
+1035
+00:34:37,679 --> 00:34:40,039
+little bit better
+
+1036
+00:34:39,039 --> 00:34:42,800
+so we could say take that and put it
+
+1037
+00:34:40,800 --> 00:34:45,079
+into
+
+1038
+00:34:42,079 --> 00:34:49,440
+something called g
+
+1039
+00:34:45,440 --> 00:34:49,079
+and then select from that
+
+1040
+00:34:50,079 --> 00:34:55,639
+and we'll project out uh some a field
+
+1041
+00:34:52,639 --> 00:34:58,519
+called method which equals g dot key
+
+1042
+00:34:55,519 --> 00:34:59,079
+and then a field called overload which
+
+1043
+00:34:58,079 --> 00:35:00,679
+is the number of overloads and that we
+
+1044
+00:34:59,679 --> 00:35:03,838
+will set equal to
+
+1045
+00:35:00,838 --> 00:35:03,119
+g.group.com
+
+1046
+00:35:05,119 --> 00:35:11,559
+like so so let's try and run that
+
+1047
+00:35:08,559 --> 00:35:13,599
+and now we see a nice little dump of
+
+1048
+00:35:11,599 --> 00:35:15,039
+the methods of strings sorted
+
+1049
+00:35:13,039 --> 00:35:17,039
+alphabetically grouped up by
+
+1050
+00:35:15,039 --> 00:35:18,440
+how many overloads there are um you know
+
+1051
+00:35:17,440 --> 00:35:20,320
+printed out so
+
+1052
+00:35:18,320 --> 00:35:21,639
+yeah you can in five lines of code you
+
+1053
+00:35:20,639 --> 00:35:22,358
+can
+
+1054
+00:35:21,358 --> 00:35:24,719
+you can query anything with this stuff
+
+1055
+00:35:22,719 --> 00:35:26,719
+that's very cool yeah now uh
+
+1056
+00:35:24,719 --> 00:35:27,000
+yeah i was going to say if you want to
+
+1057
+00:35:26,000 --> 00:35:28,358
+do that just using reflection it's a
+
+1058
+00:35:27,358 --> 00:35:30,239
+little more
+
+1059
+00:35:28,239 --> 00:35:31,400
+laborious but you know they're all this
+
+1060
+00:35:30,400 --> 00:35:33,920
+is using reflection well i mean
+
+1061
+00:35:31,920 --> 00:35:35,760
+i mean by directly yes that's what i
+
+1062
+00:35:33,760 --> 00:35:36,760
+meant yeah you have to write a bunch of
+
+1063
+00:35:35,760 --> 00:35:37,159
+this
+
+1064
+00:35:36,159 --> 00:35:39,920
+for each loop and then you'd have to put
+
+1065
+00:35:37,920 --> 00:35:41,920
+them in a dictionary in order to group
+
+1066
+00:35:39,920 --> 00:35:44,358
+them
+
+1067
+00:35:41,358 --> 00:35:46,960
+yeah yeah yeah yeah so i mean
+
+1068
+00:35:44,960 --> 00:35:48,320
+there is something to be said for the
+
+1069
+00:35:46,320 --> 00:35:52,719
+the the sql syntax transact sql
+
+1070
+00:35:48,719 --> 00:35:53,159
+is really pretty nifty in many ways yeah
+
+1071
+00:35:52,159 --> 00:35:56,199
+but this isn't this
+
+1072
+00:35:53,199 --> 00:35:58,559
+is this is like sql it is not sql syntax
+
+1073
+00:35:56,559 --> 00:36:00,480
+but it's the same idea
+
+1074
+00:35:58,480 --> 00:36:01,800
+it's a more declarative way of stating
+
+1075
+00:36:00,800 --> 00:36:03,760
+what you want done
+
+1076
+00:36:01,760 --> 00:36:04,039
+and that's really i think the big
+
+1077
+00:36:03,039 --> 00:36:05,239
+difference between this type of
+
+1078
+00:36:04,239 --> 00:36:07,358
+programming and
+
+1079
+00:36:05,358 --> 00:36:09,679
+and the traditional way where where
+
+1080
+00:36:07,679 --> 00:36:12,519
+today when we write our programs
+
+1081
+00:36:09,519 --> 00:36:13,079
+a lot of the time we are not just saying
+
+1082
+00:36:12,079 --> 00:36:16,760
+what we want done but we are in
+
+1083
+00:36:13,760 --> 00:36:17,320
+meticulous detail specifying how we want
+
+1084
+00:36:16,320 --> 00:36:18,119
+it done
+
+1085
+00:36:17,119 --> 00:36:20,960
+do you know what i mean like take create
+
+1086
+00:36:18,960 --> 00:36:22,960
+this xml element add it as a child of
+
+1087
+00:36:20,960 --> 00:36:24,400
+that
+
+1088
+00:36:22,400 --> 00:36:26,239
+and we're like writing all of these
+
+1089
+00:36:24,239 --> 00:36:28,000
+assembly like instructions
+
+1090
+00:36:26,000 --> 00:36:29,079
+you know instead of stating at a higher
+
+1091
+00:36:28,079 --> 00:36:31,838
+level like this
+
+1092
+00:36:29,838 --> 00:36:33,760
+how what we want done and then having
+
+1093
+00:36:31,760 --> 00:36:36,519
+the system figure out how to do it
+
+1094
+00:36:33,519 --> 00:36:39,800
+fantastic yes great
+
+1095
+00:36:36,800 --> 00:36:41,199
+how do we get this uh so it it'll be
+
+1096
+00:36:39,199 --> 00:36:43,440
+available uh we'll have the tech preview
+
+1097
+00:36:41,440 --> 00:36:46,358
+bits available on msdn
+
+1098
+00:36:43,358 --> 00:36:48,400
+and it'll be msdn.microsoft.com slash
+
+1099
+00:36:46,400 --> 00:36:49,159
+net framework slash futures and that
+
+1100
+00:36:48,159 --> 00:36:52,679
+includes everything you just need
+
+1101
+00:36:49,679 --> 00:36:53,000
+beta2 and you can start uh writing your
+
+1102
+00:36:52,000 --> 00:36:55,599
+queries right with all that stuff all
+
+1103
+00:36:53,599 --> 00:36:55,119
+the overview docs and we'll have uh
+
+1104
+00:36:55,119 --> 00:36:58,920
+hundreds of
+
+1105
+00:36:55,920 --> 00:36:59,239
+100 queries on the web is this another
+
+1106
+00:36:58,239 --> 00:37:01,519
+free update
+
+1107
+00:36:59,519 --> 00:37:03,358
+do we have to pay money for this uh no
+
+1108
+00:37:01,358 --> 00:37:05,280
+this is totally free it's just uh
+
+1109
+00:37:03,280 --> 00:37:09,280
+is still going to make any money a small
+
+1110
+00:37:05,280 --> 00:37:11,440
+msi again it's a tech preview so
+
+1111
+00:37:09,440 --> 00:37:13,679
+uh keep those things in mind okay and
+
+1112
+00:37:11,679 --> 00:37:16,519
+feedback is incredibly important
+
+1113
+00:37:13,519 --> 00:37:17,159
+right we have uh in fact on the on the
+
+1114
+00:37:16,159 --> 00:37:19,039
+msdn
+
+1115
+00:37:17,039 --> 00:37:20,440
+link that dan mentioned there will be uh
+
+1116
+00:37:19,440 --> 00:37:23,880
+there'll be a link to
+
+1117
+00:37:20,880 --> 00:37:24,119
+uh forums and whatever where we'd love
+
+1118
+00:37:23,119 --> 00:37:27,480
+to hear feedback
+
+1119
+00:37:24,480 --> 00:37:29,760
+sure very cool yeah i think
+
+1120
+00:37:27,760 --> 00:37:30,440
+it was great from our first conversation
+
+1121
+00:37:29,440 --> 00:37:31,719
+i think it was about a year ago when we
+
+1122
+00:37:30,719 --> 00:37:34,440
+were in the
+
+1123
+00:37:31,440 --> 00:37:36,239
+uh what was it the museum yeah we barely
+
+1124
+00:37:34,239 --> 00:37:37,480
+touched and got
+
+1125
+00:37:36,480 --> 00:37:39,920
+yeah we were in the middle of cooking
+
+1126
+00:37:37,920 --> 00:37:40,679
+this thing while we told you so when we
+
+1127
+00:37:39,679 --> 00:37:42,880
+come back next what are you going to
+
+1128
+00:37:40,880 --> 00:37:46,539
+have shots
+
+1129
+00:37:42,539 --> 00:37:48,239
+[Laughter]
+
+1130
+00:37:46,239 --> 00:37:52,960
+anders is picking up some more stuff
+
+1131
+00:37:48,960 --> 00:37:57,320
+well this is great yeah thank you
+
+1132
+00:37:52,320 --> 00:37:57,000
+all right take care all right absolutely
+Subtitles End: mo.dbxdb.com
+
