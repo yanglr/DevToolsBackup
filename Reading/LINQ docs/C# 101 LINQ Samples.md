@@ -1,6 +1,4 @@
-
-
-## C# LINQ Samples
+## C# 101 LINQ Samples
 
 **How to use 101 C# LINQ Samples?**
 
