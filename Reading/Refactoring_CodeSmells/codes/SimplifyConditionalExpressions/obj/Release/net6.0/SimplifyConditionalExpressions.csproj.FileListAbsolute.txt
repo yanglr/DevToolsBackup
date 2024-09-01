@@ -1,0 +1,14 @@
+C:\diskD\csproj\CodeSmellKata\SimplifyConditionalExpressions\bin\Release\net6.0\SimplifyConditionalExpressions.exe
+C:\diskD\csproj\CodeSmellKata\SimplifyConditionalExpressions\bin\Release\net6.0\SimplifyConditionalExpressions.deps.json
+C:\diskD\csproj\CodeSmellKata\SimplifyConditionalExpressions\bin\Release\net6.0\SimplifyConditionalExpressions.runtimeconfig.json
+C:\diskD\csproj\CodeSmellKata\SimplifyConditionalExpressions\bin\Release\net6.0\SimplifyConditionalExpressions.dll
+C:\diskD\csproj\CodeSmellKata\SimplifyConditionalExpressions\bin\Release\net6.0\SimplifyConditionalExpressions.pdb
+C:\diskD\csproj\CodeSmellKata\SimplifyConditionalExpressions\obj\Release\net6.0\SimplifyConditionalExpressions.GeneratedMSBuildEditorConfig.editorconfig
+C:\diskD\csproj\CodeSmellKata\SimplifyConditionalExpressions\obj\Release\net6.0\SimplifyConditionalExpressions.AssemblyInfoInputs.cache
+C:\diskD\csproj\CodeSmellKata\SimplifyConditionalExpressions\obj\Release\net6.0\SimplifyConditionalExpressions.AssemblyInfo.cs
+C:\diskD\csproj\CodeSmellKata\SimplifyConditionalExpressions\obj\Release\net6.0\SimplifyConditionalExpressions.csproj.CoreCompileInputs.cache
+C:\diskD\csproj\CodeSmellKata\SimplifyConditionalExpressions\obj\Release\net6.0\SimplifyConditionalExpressions.dll
+C:\diskD\csproj\CodeSmellKata\SimplifyConditionalExpressions\obj\Release\net6.0\refint\SimplifyConditionalExpressions.dll
+C:\diskD\csproj\CodeSmellKata\SimplifyConditionalExpressions\obj\Release\net6.0\SimplifyConditionalExpressions.pdb
+C:\diskD\csproj\CodeSmellKata\SimplifyConditionalExpressions\obj\Release\net6.0\SimplifyConditionalExpressions.genruntimeconfig.cache
+C:\diskD\csproj\CodeSmellKata\SimplifyConditionalExpressions\obj\Release\net6.0\ref\SimplifyConditionalExpressions.dll
