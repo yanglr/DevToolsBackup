@@ -1,14 +1,17 @@
 **Autofac 8.0 文档 - 中文版**
 
+[pdf](https://github.com/yanglr/DevToolsBackup/blob/main/Reading/DI%20and%20Autofac/Autofac%20v8.0%20cn%20doc.pdf
+)
 
+[word](https://github.com/yanglr/DevToolsBackup/blob/main/Reading/DI%20and%20Autofac/Autofac%20v8.0%20cn%20doc.docx)
 
-## 英文版:
+## Autofac 8.0 英文版 文档:
 
 在线文档:
 
 https://autofac.readthedocs.io/en/latest/
 
-
+<br/>
 
 离线版 下载:
 
@@ -16,11 +19,7 @@ https://readthedocs.org/projects/autofac/downloads/
 
 
 
-
-
 ## 微软MVP 分享
-
-
 
 **Deep Dive into Dependency Injection and Writing Decoupled Quality Code and Testable Software** (以AutoFac为例，有挺多例子的demo)
 
@@ -32,8 +31,6 @@ DEV-B412
 
 Speakers: **Miguel Castro**
 
- 
-
 来自 <[http://web.archive.org/web/20150603235520/http://channel9.msdn.com/events/TechEd/NorthAmerica/2014/DEV-B412](http://web.archive.org/web/20150603235520/http:/channel9.msdn.com/events/TechEd/NorthAmerica/2014/DEV-B412)
 
  
@@ -42,36 +39,26 @@ Speakers: **Miguel Castro**
 
 https://video.ch9.ms/sessions/teched/na/2014/DEV-B412.mp4 
 
- 
 
 or
-
 
 
 Deep Dive into Dependency Injection and Writing Decoupled Quality Code and Testable Software
 
 来自 <https://www.youtube.com/watch?v=1PDO-VALRao
-
  
 
 ppt:
 
 [http://web.archive.org/web/20150305064607/http://video.ch9.ms/sessions/teched/na/2014/DEV-B412.pptx](http://web.archive.org/web/20150305064607/http:/video.ch9.ms/sessions/teched/na/2014/DEV-B412.pptx)
 
- 
 
 ### 部分 code:
 
 https://github.com/miguelcastro67/DI-Webcast
 
- 
-
 https://github.com/miguelcastro67/DIForTheDevGuy
-
-  
 
 AutoFac - simple demo
 
 https://github.com/miguelcastro67/DIForTheDevGuy/tree/main/src/DiForDevGuyContainers/Containers.Autofac
-
- 
