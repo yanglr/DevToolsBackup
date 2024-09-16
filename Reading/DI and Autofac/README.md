@@ -1,9 +1,11 @@
 **Autofac 8.0 文档 - 中文版**
 
-[pdf](https://github.com/yanglr/DevToolsBackup/blob/main/Reading/DI%20and%20Autofac/Autofac%20v8.0%20cn%20doc.pdf
+[pdf](https://github.com/yanglr/DevToolsBackup/blob/main/Reading/DI%20and%20Autofac/Autofac%20v8.0%20cn%20doc/Autofac%20v8.0%20cn%20doc.pdf
 )
 
-[word](https://github.com/yanglr/DevToolsBackup/blob/main/Reading/DI%20and%20Autofac/Autofac%20v8.0%20cn%20doc.docx)
+[word](https://github.com/yanglr/DevToolsBackup/blob/main/Reading/DI%20and%20Autofac/Autofac%20v8.0%20cn%20doc/Autofac%20v8.0%20cn%20doc.docx)
+
+
 
 ## Autofac 8.0 英文版 文档:
 
@@ -46,7 +48,7 @@ or
 Deep Dive into Dependency Injection and Writing Decoupled Quality Code and Testable Software
 
 来自 <https://www.youtube.com/watch?v=1PDO-VALRao
- 
+
 
 ppt:
 
