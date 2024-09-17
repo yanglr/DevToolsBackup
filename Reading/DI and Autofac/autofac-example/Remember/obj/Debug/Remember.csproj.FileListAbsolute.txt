@@ -1,0 +1,10 @@
+E:\KLA 工作 work\Dependency injection (DI相关)\autofac-example\Remember\bin\Debug\Remember.exe.config
+E:\KLA 工作 work\Dependency injection (DI相关)\autofac-example\Remember\bin\Debug\Remember.exe
+E:\KLA 工作 work\Dependency injection (DI相关)\autofac-example\Remember\bin\Debug\Remember.pdb
+E:\KLA 工作 work\Dependency injection (DI相关)\autofac-example\Remember\bin\Debug\Autofac.dll
+E:\KLA 工作 work\Dependency injection (DI相关)\autofac-example\Remember\bin\Debug\Autofac.xml
+E:\KLA 工作 work\Dependency injection (DI相关)\autofac-example\Remember\obj\Debug\Remember.csproj.AssemblyReference.cache
+E:\KLA 工作 work\Dependency injection (DI相关)\autofac-example\Remember\obj\Debug\Remember.csproj.CoreCompileInputs.cache
+E:\KLA 工作 work\Dependency injection (DI相关)\autofac-example\Remember\obj\Debug\Remember.csproj.Up2Date
+E:\KLA 工作 work\Dependency injection (DI相关)\autofac-example\Remember\obj\Debug\Remember.exe
+E:\KLA 工作 work\Dependency injection (DI相关)\autofac-example\Remember\obj\Debug\Remember.pdb
