@@ -31,27 +31,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip9-SubstituteAlgorithm", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chap07-MovingFeaturesBetweenObjects", "Chap07-MovingFeaturesBetweenObjects", "{613B38D1-C9D1-43F3-9931-7B7BF34F9AAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tip1-MoveMethod", "Chap7-MovingFeaturesBetweenObjects\Tip1-MoveMethod\Tip1-MoveMethod.csproj", "{5217D64E-753E-4172-B4A9-B97564979A77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip1-MoveMethod", "Chap7-MovingFeaturesBetweenObjects\Tip1-MoveMethod\Tip1-MoveMethod.csproj", "{5217D64E-753E-4172-B4A9-B97564979A77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tip2-MoveField", "Chap7-MovingFeaturesBetweenObjects\Tip2-MoveField\Tip2-MoveField.csproj", "{C8DE2151-1D42-4907-AC75-CA46FFAD6F4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip2-MoveField", "Chap7-MovingFeaturesBetweenObjects\Tip2-MoveField\Tip2-MoveField.csproj", "{C8DE2151-1D42-4907-AC75-CA46FFAD6F4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tip3-ExtractClass", "Chap7-MovingFeaturesBetweenObjects\Tip3-ExtractClass\Tip3-ExtractClass.csproj", "{A2CE7575-FDB8-44F0-A3E4-0EA53E5E1A09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip3-ExtractClass", "Chap7-MovingFeaturesBetweenObjects\Tip3-ExtractClass\Tip3-ExtractClass.csproj", "{A2CE7575-FDB8-44F0-A3E4-0EA53E5E1A09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tip4-InlineClass", "Chap7-MovingFeaturesBetweenObjects\Tip4-InlineClass\Tip4-InlineClass.csproj", "{6BC99ADA-87B7-4EEA-AD67-969654D12E53}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip4-InlineClass", "Chap7-MovingFeaturesBetweenObjects\Tip4-InlineClass\Tip4-InlineClass.csproj", "{6BC99ADA-87B7-4EEA-AD67-969654D12E53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tip5-HideDelegate", "Chap7-MovingFeaturesBetweenObjects\Tip5-HideDelegate\Tip5-HideDelegate.csproj", "{DC061D75-FA2B-497D-9EF5-C008D2177553}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip5-HideDelegate", "Chap7-MovingFeaturesBetweenObjects\Tip5-HideDelegate\Tip5-HideDelegate.csproj", "{DC061D75-FA2B-497D-9EF5-C008D2177553}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tip6-RemoveMiddleMan", "Chap7-MovingFeaturesBetweenObjects\Tip6-RemoveMiddleMan\Tip6-RemoveMiddleMan.csproj", "{0AB937FB-2DD1-4561-8092-6170EAE8691C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip6-RemoveMiddleMan", "Chap7-MovingFeaturesBetweenObjects\Tip6-RemoveMiddleMan\Tip6-RemoveMiddleMan.csproj", "{0AB937FB-2DD1-4561-8092-6170EAE8691C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tip7-IntroduceForeignMethod", "Chap7-MovingFeaturesBetweenObjects\Tip7-IntroduceForeignMethod\Tip7-IntroduceForeignMethod.csproj", "{6204898A-253B-4D83-A14A-547EF44DB4F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip7-IntroduceForeignMethod", "Chap7-MovingFeaturesBetweenObjects\Tip7-IntroduceForeignMethod\Tip7-IntroduceForeignMethod.csproj", "{6204898A-253B-4D83-A14A-547EF44DB4F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tip8-IntroduceLocalExtension", "Chap7-MovingFeaturesBetweenObjects\Tip8-IntroduceLocalExtension\Tip8-IntroduceLocalExtension.csproj", "{FA0CDE41-DE24-4DC3-B44C-6A51160058B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip8-IntroduceLocalExtension", "Chap7-MovingFeaturesBetweenObjects\Tip8-IntroduceLocalExtension\Tip8-IntroduceLocalExtension.csproj", "{FA0CDE41-DE24-4DC3-B44C-6A51160058B3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chap08-OrganizingData", "Chap08-OrganizingData", "{0AED3CB8-8445-4868-9258-9571CB260487}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tip01-SelfEncapsulateField", "Chap8-OrganizingData\Tip1-SelfEncapsulateField\Tip01-SelfEncapsulateField.csproj", "{E55E4737-1A82-4837-8647-2FF28FEFB95C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip01-SelfEncapsulateField", "Chap8-OrganizingData\Tip1-SelfEncapsulateField\Tip01-SelfEncapsulateField.csproj", "{E55E4737-1A82-4837-8647-2FF28FEFB95C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tip02-ReplaceDataValuewithObject", "Chap8-OrganizingData\Tip2-ReplaceDataValuewithObject\Tip02-ReplaceDataValuewithObject.csproj", "{5B3C6033-0F4D-4621-9327-5C0E49C86D85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip02-ReplaceDataValuewithObject", "Chap8-OrganizingData\Tip2-ReplaceDataValuewithObject\Tip02-ReplaceDataValuewithObject.csproj", "{5B3C6033-0F4D-4621-9327-5C0E49C86D85}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip03-ChangeValuetoReference", "Chap8-OrganizingData\Tip3-ChangeValuetoReference\Tip03-ChangeValuetoReference.csproj", "{5A5CCEA9-06C0-4A36-8202-338EACA1B0E5}"
 EndProject
@@ -112,6 +112,32 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip06-ReplaceParameterwithExplicitMethods", "Chap10-MakingMethodCallsSimpler\Tip06-ReplaceParameterwithExplicitMethods\Tip06-ReplaceParameterwithExplicitMethods.csproj", "{4937863E-19BD-48E4-B9FC-7DF6193C6790}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip13-EncapsulateDowncast", "Chap10-MakingMethodCallsSimpler\Tip13-EncapsulateDowncast\Tip13-EncapsulateDowncast.csproj", "{43FFD9E1-8C7C-4608-9995-5453006D9902}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chap11-DealingwithGeneralization", "Chap11-DealingwithGeneralization", "{6B9C8615-9D4C-4AC3-BE9E-E21471069555}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip01-PullUpField", "Chap11-DealingwithGeneralization\Tip01-PullUpField\Tip01-PullUpField.csproj", "{B98F7294-4E4D-4EB4-A0EB-9CFC54996B23}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip02-PullUpMethod", "Chap11-DealingwithGeneralization\Tip02-PullUpMethod\Tip02-PullUpMethod.csproj", "{9EC3253F-6F12-4B0D-AB0F-739371C5421F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip03-PullUpConstructorBody", "Chap11-DealingwithGeneralization\Tip03-PullUpConstructorBody\Tip03-PullUpConstructorBody.csproj", "{4DE6BD03-8FEE-4E4A-8B70-5044A0949BF9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip04-PushDownMethod", "Chap11-DealingwithGeneralization\Tip04-PushDownMethod\Tip04-PushDownMethod.csproj", "{C8CCFE2C-7C7A-4101-8415-884D83E6C06B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip05-PushDownField", "Chap11-DealingwithGeneralization\Tip05-PushDownField\Tip05-PushDownField.csproj", "{2B2AA35A-935B-4F32-B512-58FDC0AB02F6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip06-ExtractSubclass", "Chap11-DealingwithGeneralization\Tip06-ExtractSubclass\Tip06-ExtractSubclass.csproj", "{99583001-EDB8-4598-8AF2-2D8C7D6DFB4B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip07-ExtractSuperclass", "Chap11-DealingwithGeneralization\Tip07-ExtractSuperclass\Tip07-ExtractSuperclass.csproj", "{912135CB-D1B7-4C7C-A745-3D6BB3CB60AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip08-ExtractInterface", "Chap11-DealingwithGeneralization\Tip08-ExtractInterface\Tip08-ExtractInterface.csproj", "{3FB8CAE1-F642-4454-961E-12BA0132996E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip09-CollapseHierarchy", "Chap11-DealingwithGeneralization\Tip09-CollapseHierarchy\Tip09-CollapseHierarchy.csproj", "{988A96D5-F923-4835-89ED-B180F7420976}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip10-FormTemplateMethod", "Chap11-DealingwithGeneralization\Tip10-FormTemplateMethod\Tip10-FormTemplateMethod.csproj", "{A0D1FB5A-4019-42E8-A030-967410E94529}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip11-ReplaceInheritancewithDelegation", "Chap11-DealingwithGeneralization\Tip11-ReplaceInheritancewithDelegation\Tip11-ReplaceInheritancewithDelegation.csproj", "{502FE764-71CB-42D1-9847-37AC8CAF5D24}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip12-ReplaceDelegationwithInheritance", "Chap11-DealingwithGeneralization\Tip12-ReplaceDelegationwithInheritance\Tip12-ReplaceDelegationwithInheritance.csproj", "{6AC18CF8-15E3-4846-85EA-4300F0BA6FDA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -319,6 +345,54 @@ Global
 		{43FFD9E1-8C7C-4608-9995-5453006D9902}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43FFD9E1-8C7C-4608-9995-5453006D9902}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43FFD9E1-8C7C-4608-9995-5453006D9902}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B98F7294-4E4D-4EB4-A0EB-9CFC54996B23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B98F7294-4E4D-4EB4-A0EB-9CFC54996B23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B98F7294-4E4D-4EB4-A0EB-9CFC54996B23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B98F7294-4E4D-4EB4-A0EB-9CFC54996B23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EC3253F-6F12-4B0D-AB0F-739371C5421F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EC3253F-6F12-4B0D-AB0F-739371C5421F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EC3253F-6F12-4B0D-AB0F-739371C5421F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EC3253F-6F12-4B0D-AB0F-739371C5421F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DE6BD03-8FEE-4E4A-8B70-5044A0949BF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DE6BD03-8FEE-4E4A-8B70-5044A0949BF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DE6BD03-8FEE-4E4A-8B70-5044A0949BF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DE6BD03-8FEE-4E4A-8B70-5044A0949BF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8CCFE2C-7C7A-4101-8415-884D83E6C06B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8CCFE2C-7C7A-4101-8415-884D83E6C06B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8CCFE2C-7C7A-4101-8415-884D83E6C06B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8CCFE2C-7C7A-4101-8415-884D83E6C06B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B2AA35A-935B-4F32-B512-58FDC0AB02F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B2AA35A-935B-4F32-B512-58FDC0AB02F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B2AA35A-935B-4F32-B512-58FDC0AB02F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B2AA35A-935B-4F32-B512-58FDC0AB02F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99583001-EDB8-4598-8AF2-2D8C7D6DFB4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99583001-EDB8-4598-8AF2-2D8C7D6DFB4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99583001-EDB8-4598-8AF2-2D8C7D6DFB4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99583001-EDB8-4598-8AF2-2D8C7D6DFB4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{912135CB-D1B7-4C7C-A745-3D6BB3CB60AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{912135CB-D1B7-4C7C-A745-3D6BB3CB60AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{912135CB-D1B7-4C7C-A745-3D6BB3CB60AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{912135CB-D1B7-4C7C-A745-3D6BB3CB60AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FB8CAE1-F642-4454-961E-12BA0132996E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FB8CAE1-F642-4454-961E-12BA0132996E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FB8CAE1-F642-4454-961E-12BA0132996E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FB8CAE1-F642-4454-961E-12BA0132996E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{988A96D5-F923-4835-89ED-B180F7420976}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{988A96D5-F923-4835-89ED-B180F7420976}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{988A96D5-F923-4835-89ED-B180F7420976}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{988A96D5-F923-4835-89ED-B180F7420976}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0D1FB5A-4019-42E8-A030-967410E94529}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0D1FB5A-4019-42E8-A030-967410E94529}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0D1FB5A-4019-42E8-A030-967410E94529}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0D1FB5A-4019-42E8-A030-967410E94529}.Release|Any CPU.Build.0 = Release|Any CPU
+		{502FE764-71CB-42D1-9847-37AC8CAF5D24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{502FE764-71CB-42D1-9847-37AC8CAF5D24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{502FE764-71CB-42D1-9847-37AC8CAF5D24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{502FE764-71CB-42D1-9847-37AC8CAF5D24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AC18CF8-15E3-4846-85EA-4300F0BA6FDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AC18CF8-15E3-4846-85EA-4300F0BA6FDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AC18CF8-15E3-4846-85EA-4300F0BA6FDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AC18CF8-15E3-4846-85EA-4300F0BA6FDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -373,6 +447,18 @@ Global
 		{29D27F73-802A-4B8F-ADEA-283BEF7599AD} = {82DFE5E5-B00B-48DF-8AA0-632EA95A0F18}
 		{4937863E-19BD-48E4-B9FC-7DF6193C6790} = {82DFE5E5-B00B-48DF-8AA0-632EA95A0F18}
 		{43FFD9E1-8C7C-4608-9995-5453006D9902} = {82DFE5E5-B00B-48DF-8AA0-632EA95A0F18}
+		{B98F7294-4E4D-4EB4-A0EB-9CFC54996B23} = {6B9C8615-9D4C-4AC3-BE9E-E21471069555}
+		{9EC3253F-6F12-4B0D-AB0F-739371C5421F} = {6B9C8615-9D4C-4AC3-BE9E-E21471069555}
+		{4DE6BD03-8FEE-4E4A-8B70-5044A0949BF9} = {6B9C8615-9D4C-4AC3-BE9E-E21471069555}
+		{C8CCFE2C-7C7A-4101-8415-884D83E6C06B} = {6B9C8615-9D4C-4AC3-BE9E-E21471069555}
+		{2B2AA35A-935B-4F32-B512-58FDC0AB02F6} = {6B9C8615-9D4C-4AC3-BE9E-E21471069555}
+		{99583001-EDB8-4598-8AF2-2D8C7D6DFB4B} = {6B9C8615-9D4C-4AC3-BE9E-E21471069555}
+		{912135CB-D1B7-4C7C-A745-3D6BB3CB60AE} = {6B9C8615-9D4C-4AC3-BE9E-E21471069555}
+		{3FB8CAE1-F642-4454-961E-12BA0132996E} = {6B9C8615-9D4C-4AC3-BE9E-E21471069555}
+		{988A96D5-F923-4835-89ED-B180F7420976} = {6B9C8615-9D4C-4AC3-BE9E-E21471069555}
+		{A0D1FB5A-4019-42E8-A030-967410E94529} = {6B9C8615-9D4C-4AC3-BE9E-E21471069555}
+		{502FE764-71CB-42D1-9847-37AC8CAF5D24} = {6B9C8615-9D4C-4AC3-BE9E-E21471069555}
+		{6AC18CF8-15E3-4846-85EA-4300F0BA6FDA} = {6B9C8615-9D4C-4AC3-BE9E-E21471069555}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C2E02B9E-3354-4966-A32F-61D31106C44A}
