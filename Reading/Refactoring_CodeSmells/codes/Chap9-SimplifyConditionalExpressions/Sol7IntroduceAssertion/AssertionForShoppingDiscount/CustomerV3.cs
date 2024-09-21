@@ -6,7 +6,7 @@ namespace SimplifyConditionalExpressions.Sol7IntroduceAssertion.AssertionForShop
     {
         internal double ApplyDiscount(double totalAmount, double discountRate)
         {
-            return totalAmount - (totalAmount * GetDiscountRate(discountRate));
+            return totalAmount - totalAmount * GetDiscountRate(discountRate);
         }
 
         internal double GetDiscountRate(double discountRate)

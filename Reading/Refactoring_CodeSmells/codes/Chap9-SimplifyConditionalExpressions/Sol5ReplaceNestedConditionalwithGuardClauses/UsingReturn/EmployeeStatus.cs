@@ -1,4 +1,4 @@
-﻿namespace SimplifyConditionalExpressions.Sol5ReplaceNestedConditionalwithGuardClauses.UsingReturn
+﻿namespace SimplifyConditionalExpressions.Sol5ReplaceNestedConditionalWithGuardClauses.UsingReturn
 {
     public enum EmployeeStatus
     {

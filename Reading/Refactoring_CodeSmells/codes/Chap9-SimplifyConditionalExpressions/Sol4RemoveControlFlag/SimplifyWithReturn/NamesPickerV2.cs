@@ -2,14 +2,13 @@
 {
     internal class NamesPickerV2
     {
-        // To find two suspicious names, stop at once when one of them found.
         internal void CheckSecurity(string[] people)
         {
-            string foundName = FoundName(people);
+            string foundName = FindName(people);
             FurtherProcess(foundName);
         }
 
-        private string FoundName(string[] people)
+        private string FindName(string[] people)
         {
             string foundName = "";
             for (int i = 0; i < people.Length; i++)
@@ -21,7 +20,7 @@
                         SendAlert();
                         foundName = "Don";
                     }
-                    if (people[i].Equals("John"))
+                    else if (people[i].Equals("John"))
                     {
                         SendAlert();
                         foundName = "John";
@@ -39,7 +38,7 @@
 
         private void FurtherProcess(string foundName)
         {
-            throw new NotImplementedException();
+            Console.WriteLine($"Then length of {foundName} is: {foundName.Length}");
         }
     }
 }

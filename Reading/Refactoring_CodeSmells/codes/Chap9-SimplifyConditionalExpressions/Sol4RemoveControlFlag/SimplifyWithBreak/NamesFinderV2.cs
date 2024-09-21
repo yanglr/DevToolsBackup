@@ -1,8 +1,7 @@
 ﻿namespace SimplifyConditionalExpressions.Sol4RemoveControlFlag.SimplifyWithBreak
 {
-    internal class NamesPicker
+    internal class NamesFinderV2
     {
-        // To find two suspicious names, stop at once when one of them found.
         internal void CheckSecurity(string[] people)
         {
             bool found = false;

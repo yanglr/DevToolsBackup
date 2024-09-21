@@ -6,10 +6,8 @@
             double winterPrice, double winterServiceCharge)
         {
             DateTime dateOfNow = DateTime.Now;
-            double charge = 0;
+            double charge;
 
-            // charge for: not Summer
-            // charge for: Summer
             if (NotSummer(dateOfNow))
             {
                 charge = NotSummerCharge(quantity, winterPrice, winterServiceCharge);

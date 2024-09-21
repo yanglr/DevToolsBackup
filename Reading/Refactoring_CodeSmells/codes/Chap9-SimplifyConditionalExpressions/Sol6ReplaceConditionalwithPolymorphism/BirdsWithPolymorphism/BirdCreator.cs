@@ -1,4 +1,4 @@
-﻿namespace SimplifyConditionalExpressions.Sol6ReplaceConditionalwithPolymorphism.BirdsWithPolymorphism
+﻿namespace SimplifyConditionalExpressions.Sol6ReplaceConditionalWithPolymorphism.BirdsWithPolymorphism
 {
     internal class BirdCreator
     {
@@ -6,13 +6,13 @@
         {
             switch (type)
             {
-                case BirdType.European:
+                case BirdType.EuropeanSwallow:
                     return new EuropeanSwallow();
 
-                case BirdType.African:
+                case BirdType.AfricanBird:
                     return new AfricanSwallow();
 
-                case BirdType.NorwegianBlue:
+                case BirdType.NorwegianBlueParrot:
                     return new NorwegianBlueParrot();
 
                 default:

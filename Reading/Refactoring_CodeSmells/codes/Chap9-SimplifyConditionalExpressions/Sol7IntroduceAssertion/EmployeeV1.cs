@@ -6,7 +6,7 @@ namespace SimplifyConditionalExpressions.Sol7IntroduceAssertion
     {
         private const double InvalidExpense = -1.0;
         private double _expenseLimit = InvalidExpense;
-        private Project _primaryProject;
+        private Project _primaryProject = new();
 
         private bool WithinLimit(double expenseAmount)
         {

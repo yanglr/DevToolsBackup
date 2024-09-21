@@ -1,23 +1,31 @@
 ﻿namespace SimplifyConditionalExpressions.Sol2ConsolidateConditionalExpression.MergeCasesUsingOr
 {
-    internal class DisabilityAmountCalculatorV3
+    internal class DisabilityAmountCalculator
     {
-        // Note: use logical or (||)
         internal double GetDisabilityAmount(Employee person)
         {
-            double disabilityAmount = 0;
             if (IsNotEligibleForDisability(person))
             {
                 return 0;
             }
 
             // compute the disability amount
-            return disabilityAmount;
+            return Compute(person);
         }
-
+        
         private static bool IsNotEligibleForDisability(Employee person)
         {
             return person.Seniority < 2 || person.MonthsDisabled > 12 || person.IsPartTime;
+        }
+
+        private double Compute(Employee person)
+        {
+            if (person.IsPartTime)
+            {
+                return 0;
+            }
+
+            return 0;
         }
     }
 }

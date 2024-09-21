@@ -5,11 +5,11 @@ namespace SimplifyConditionalExpressions.Sol7IntroduceAssertion.AssertionForProj
     internal class Employee
     {
         private const double InvalidExpense = -1;
-        private Project _primaryProject;
+        private Project _primaryProject = new();
 
-        internal bool WithinLimit(double actualEexpense, double expenseLimit)
+        internal bool WithinLimit(double actualExpense, double expenseLimit)
         {
-            return actualEexpense <= GetProjectExpenseLimit(expenseLimit);
+            return actualExpense <= GetProjectExpenseLimit(expenseLimit);
         }
 
         private double GetProjectExpenseLimit(double expenseLimit)

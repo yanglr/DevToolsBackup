@@ -1,4 +1,4 @@
-﻿namespace SimplifyConditionalExpressions.Sol6ReplaceConditionalwithPolymorphism
+﻿namespace SimplifyConditionalExpressions.Sol6ReplaceConditionalWithPolymorphism
 {
     internal abstract class Bird
     {
@@ -8,6 +8,6 @@
 
         public int Voltage { get; set; }
 
-        public abstract double GetFlySpeed(int numberOfCoconuts);
+        protected abstract double GetFlySpeed(int numberOfCoconuts);
     }
 }

@@ -23,7 +23,7 @@
                 }
             }
         }
-
+            
         private void SendAlert()
         {
             Console.WriteLine("The objective name is found.");

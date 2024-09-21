@@ -2,7 +2,7 @@
 {
     internal class VacationCalculatorV2
     {
-        internal static double ApplyVacation(Employee employee)
+        internal double ApplyVacation(Employee employee)
         {
             if (employee.OnVacation && employee.ServiceYears > 10)
             {

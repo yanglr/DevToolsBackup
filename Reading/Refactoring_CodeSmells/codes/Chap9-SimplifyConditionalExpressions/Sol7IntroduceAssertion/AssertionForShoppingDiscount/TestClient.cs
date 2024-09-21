@@ -4,9 +4,8 @@
     {
         public static void Test()
         {
-            var customer = new CustomerV2();
+            var customer = new Customer();
             Console.WriteLine(customer.ApplyDiscount(100, 2));
-            // Console.WriteLine(customer.ApplyDiscount(100, 0.2));
         }
     }
 }

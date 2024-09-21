@@ -1,6 +1,4 @@
-﻿using SimplifyConditionalExpressions.Sol6ReplaceConditionalwithPolymorphism.EmployeesWithPolymorphism;
-
-namespace SimplifyConditionalExpressions.Sol6ReplaceConditionalwithPolymorphism
+﻿namespace SimplifyConditionalExpressions.Sol6ReplaceConditionalWithPolymorphism.EmployeesWithPolymorphism
 {
     internal abstract class Employee
     {

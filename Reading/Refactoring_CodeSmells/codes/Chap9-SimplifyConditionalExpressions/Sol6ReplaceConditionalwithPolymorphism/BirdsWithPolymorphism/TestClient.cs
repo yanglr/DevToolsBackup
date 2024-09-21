@@ -1,11 +1,11 @@
-﻿namespace SimplifyConditionalExpressions.Sol6ReplaceConditionalwithPolymorphism.BirdsWithPolymorphism
+﻿namespace SimplifyConditionalExpressions.Sol6ReplaceConditionalWithPolymorphism.BirdsWithPolymorphism
 {
     internal class TestClient
     {
         internal static void Test()
         {
-            Bird bird = BirdCreator.Create(BirdType.NorwegianBlue);
-            Console.WriteLine(bird.GetFlySpeed(5));
+            Bird bird = BirdCreator.Create(BirdType.NorwegianBlueParrot);
+            //Console.WriteLine(bird.GetFlySpeed(5));
         }
     }
 }

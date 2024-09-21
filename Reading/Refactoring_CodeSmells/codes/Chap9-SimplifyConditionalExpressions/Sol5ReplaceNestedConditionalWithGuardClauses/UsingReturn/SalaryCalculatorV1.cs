@@ -1,8 +1,8 @@
-﻿namespace SimplifyConditionalExpressions.Sol5ReplaceNestedConditionalwithGuardClauses.UsingReturn
+﻿namespace SimplifyConditionalExpressions.Sol5ReplaceNestedConditionalWithGuardClauses.UsingReturn
 {
-    internal class SalaryCalulatorV1
+    internal class SalaryCalculatorV1
     {
-        // 人员薪资计算系统
+        // Salary calculating system
         internal double GetPayAmount(EmployeeStatus status)
         {
             double result;

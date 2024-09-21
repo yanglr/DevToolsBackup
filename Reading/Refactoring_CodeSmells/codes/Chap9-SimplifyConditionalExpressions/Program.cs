@@ -1,6 +1,6 @@
-﻿using SimplifyConditionalExpressions.Sol1DecomposeConditional;
-using SimplifyConditionalExpressions.Sol6ReplaceConditionalwithPolymorphism;
-using SimplifyConditionalExpressions.Sol6ReplaceConditionalwithPolymorphism.BirdsWithPolymorphism;
+﻿using Autofac;
+using SimplifyConditionalExpressions.Sol6ReplaceConditionalWithPolymorphism.BirdsWithStrategy.Interfaces;
+using SimplifyConditionalExpressions.Sol6ReplaceConditionalWithPolymorphism.BirdsWithStrategy.Strategies;
 
 namespace SimplifyConditionalExpressions
 {
@@ -8,19 +8,20 @@ namespace SimplifyConditionalExpressions
     {
         private static void Main(string[] args)
         {
-            //double totalPay = ChargeCalculatorV2.TotalPricesOfGoods(5, 3.5, 3.2, 2);
+            var builder = new ContainerBuilder();
 
-            //// Result is 18
-            //Console.WriteLine($"Total pay should be: {totalPay}");
+            // Register bird strategies
+            builder.RegisterType<EuropeanBirdSpeedStrategy>().As<IFlySpeedStrategy>().Named<IFlySpeedStrategy>("EuropeanSwallow");
+            builder.RegisterType<AfricanBirdSpeedStrategy>().As<IFlySpeedStrategy>().Named<IFlySpeedStrategy>("AfricanBird");
+            builder.RegisterType<NorwegianBlueBirdSpeedStrategy>().As<IFlySpeedStrategy>().Named<IFlySpeedStrategy>("Norwegian");
 
-            // To test bird
-            // TestClient.Test();
+            var container = builder.Build();
 
-            // To test Assertion for Project Expense
-            // Sol7IntroduceAssertion.AssertionForProjectExpense.TestClient.Test();
-
-            // To test Assertion for Shopping Discount
-            Sol7IntroduceAssertion.AssertionForShoppingDiscount.TestClient.Test();
+            using (var scope = container.BeginLifetimeScope())
+            {
+                EuropeanBirdSpeedStrategy birdSpeedStrategy = scope.Resolve<EuropeanBirdSpeedStrategy>();
+                Console.WriteLine(birdSpeedStrategy.GetFlySpeed(new Sol6ReplaceConditionalWithPolymorphism.BirdsWithStrategy.Bird(birdSpeedStrategy), 5));
+            }
         }
     }
 }

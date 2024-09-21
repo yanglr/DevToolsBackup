@@ -1,6 +1,4 @@
-﻿using SimplifyConditionalExpressions.Sol3;
-
-namespace SimplifyConditionalExpressions.Sol3ConsolidateDuplicateConditionalFragments
+﻿namespace SimplifyConditionalExpressions.Sol3ConsolidateDuplicateConditionalFragments
 {
     internal class ShoppingHandlerV2
     {
@@ -16,13 +14,13 @@ namespace SimplifyConditionalExpressions.Sol3ConsolidateDuplicateConditionalFrag
                 total = product.Price * 0.98;
             }
 
-            Pack();
+            Pack(product);
             return total;
         }
 
-        private static void Pack()
+        private static void Pack(Product product)
         {
-            throw new NotImplementedException();
+            Console.WriteLine($"{product.Name} packed.");
         }
     }
 }

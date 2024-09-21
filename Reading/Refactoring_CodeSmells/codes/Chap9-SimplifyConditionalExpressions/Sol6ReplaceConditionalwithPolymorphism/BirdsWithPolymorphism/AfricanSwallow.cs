@@ -1,8 +1,8 @@
-﻿namespace SimplifyConditionalExpressions.Sol6ReplaceConditionalwithPolymorphism.BirdsWithPolymorphism
+﻿namespace SimplifyConditionalExpressions.Sol6ReplaceConditionalWithPolymorphism.BirdsWithPolymorphism
 {
     internal class AfricanSwallow : Bird
     {
-        public override double GetFlySpeed(int numberOfCoconuts)
+        protected override double GetFlySpeed(int numberOfCoconuts)
         {
             return 40 - 2 * numberOfCoconuts;
         }

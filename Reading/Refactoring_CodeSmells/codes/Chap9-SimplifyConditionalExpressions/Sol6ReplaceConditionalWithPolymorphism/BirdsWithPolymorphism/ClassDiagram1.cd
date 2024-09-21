@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SimplifyConditionalExpressions.Sol6ReplaceConditionalWithPolymorphism.BirdsWithPolymorphism.AfricanSwallow">
+    <Position X="5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sol6ReplaceConditionalWithPolymorphism\BirdsWithPolymorphism\AfricanSwallow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimplifyConditionalExpressions.Sol6ReplaceConditionalWithPolymorphism.BirdsWithPolymorphism.EuropeanSwallow">
+    <Position X="3" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sol6ReplaceConditionalWithPolymorphism\BirdsWithPolymorphism\EuropeanSwallow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimplifyConditionalExpressions.Sol6ReplaceConditionalWithPolymorphism.BirdsWithPolymorphism.NorwegianBlueParrot">
+    <Position X="0.75" Y="3.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sol6ReplaceConditionalWithPolymorphism\BirdsWithPolymorphism\NorwegianBlueParrot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimplifyConditionalExpressions.Sol6ReplaceConditionalWithPolymorphism.BirdsWithPolymorphism.Bird">
+    <Position X="3" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgABCAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sol6ReplaceConditionalWithPolymorphism\BirdsWithPolymorphism\Bird.cs</FileName>
+      <NewMemberFileName>Sol6ReplaceConditionalWithPolymorphism\BirdV1.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

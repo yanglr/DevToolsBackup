@@ -1,21 +1,13 @@
-﻿using SimplifyConditionalExpressions.Sol5ReplaceNestedConditionalwithGuardClauses.UsingReturn;
-
-namespace SimplifyConditionalExpressions.Sol5ReplaceNestedConditionalwithGuardClauses
+﻿namespace SimplifyConditionalExpressions.Sol5ReplaceNestedConditionalWithGuardClauses.UsingReturn
 {
-    internal class SalaryCalulatorV3
+    internal class SalaryCalculator
     {
         internal double GetPayAmount(EmployeeStatus status)
         {
-            double result;
             if (status == EmployeeStatus.Dead) return DeadAmount();
             if (status == EmployeeStatus.Separated) return SeparatedAmount();
-            if (status == EmployeeStatus.Retired) result = RetiredAmount();
-            else
-            {
-                result = NormalPayAmount();
-            }
-
-            return result;
+            if (status == EmployeeStatus.Retired) return RetiredAmount();
+            return NormalPayAmount();
         }
 
         private double NormalPayAmount()

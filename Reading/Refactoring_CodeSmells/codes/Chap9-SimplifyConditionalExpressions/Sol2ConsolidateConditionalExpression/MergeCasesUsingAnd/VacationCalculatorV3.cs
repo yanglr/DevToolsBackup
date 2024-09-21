@@ -1,11 +1,11 @@
 ﻿namespace SimplifyConditionalExpressions.Sol2ConsolidateConditionalExpression.MergeCasesUsingAnd
 {
-    internal class VacationCalculatorV3
+    internal class VacationCalculator
     {
         // Using the ternary operator
-        internal static double ApplyVacation(Employee employee)
+        internal double ApplyVacation(Employee employee)
         {
-            return (employee.OnVacation && employee.ServiceYears > 10) ? 1 : 0.5;
+            return employee.OnVacation && employee.ServiceYears > 10 ? 1 : 0.5;
         }
     }
 }

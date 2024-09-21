@@ -2,7 +2,7 @@
 {
     internal class VacationCalculatorV1
     {
-        internal static double ApplyVacation(Employee employee)
+        internal double ApplyVacation(Employee employee)
         {
             if (employee.OnVacation)
             {

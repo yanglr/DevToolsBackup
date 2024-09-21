@@ -1,4 +1,4 @@
-﻿namespace SimplifyConditionalExpressions.Sol5ReplaceNestedConditionalwithGuardClauses.InvertIf
+﻿namespace SimplifyConditionalExpressions.Sol5ReplaceNestedConditionalWithGuardClauses.InvertIf
 {
     internal class CapitalCalculatorV1
     {

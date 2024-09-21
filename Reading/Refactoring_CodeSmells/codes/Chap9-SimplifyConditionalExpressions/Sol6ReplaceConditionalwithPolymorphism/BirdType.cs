@@ -1,9 +1,9 @@
-﻿namespace SimplifyConditionalExpressions.Sol6ReplaceConditionalwithPolymorphism
+﻿namespace SimplifyConditionalExpressions.Sol6ReplaceConditionalWithPolymorphism
 {
     public enum BirdType
     {
-        European = 0,
-        African = 1,
-        NorwegianBlue = 2
+        EuropeanSwallow = 0,
+        AfricanBird = 1,
+        NorwegianBlueParrot = 2
     }
 }

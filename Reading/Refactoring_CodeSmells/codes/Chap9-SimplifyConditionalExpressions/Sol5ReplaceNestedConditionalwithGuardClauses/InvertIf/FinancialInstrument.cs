@@ -1,4 +1,4 @@
-﻿namespace SimplifyConditionalExpressions.Sol5ReplaceNestedConditionalwithGuardClauses.InvertIf
+﻿namespace SimplifyConditionalExpressions.Sol5ReplaceNestedConditionalWithGuardClauses.InvertIf
 {
     // 金融产品类型
     internal class FinancialInstrument
