@@ -7,7 +7,7 @@ namespace SimplifyConditionalExpressions.Sol6ReplaceConditionalWithPolymorphism.
         private readonly IFlySpeedStrategy _flySpeedStrategy;
         public bool IsNailed { get; set; }
 
-        public int Voltage { get; set; }
+        public double Voltage { get; set; }
 
         public Bird(IFlySpeedStrategy flySpeedStrategy)
         {

@@ -1,42 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="SimplifyConditionalExpressions.Sol6ReplaceConditionalWithPolymorphism.BirdsWithStrategy.Bird">
-    <Position X="5" Y="1" Width="1.75" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAgABCAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
-      <FileName>Sol6ReplaceConditionalWithPolymorphism\BirdsWithStrategy\Bird.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="SimplifyConditionalExpressions.Sol6ReplaceConditionalWithPolymorphism.BirdsWithStrategy.Strategies.AfricanBirdSpeedStrategy" BaseTypeListCollapsed="true">
-    <Position X="5.25" Y="5" Width="1.5" />
+  <Class Name="SimplifyConditionalExpressions.Sol6ReplaceConditionalWithPolymorphism.BirdsWithPolymorphism.AfricanBird">
+    <Position X="0.5" Y="3" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Sol6ReplaceConditionalWithPolymorphism\BirdsWithStrategy\Strategies\AfricanBirdSpeedStrategy.cs</FileName>
+      <FileName>Sol6ReplaceConditionalWithPolymorphism\BirdsWithPolymorphism\AfricanBird.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" Collapsed="true" />
   </Class>
-  <Class Name="SimplifyConditionalExpressions.Sol6ReplaceConditionalWithPolymorphism.BirdsWithStrategy.Strategies.EuropeanBirdSpeedStrategy" BaseTypeListCollapsed="true">
-    <Position X="3" Y="4.5" Width="1.5" />
+  <Class Name="SimplifyConditionalExpressions.Sol6ReplaceConditionalWithPolymorphism.BirdsWithPolymorphism.Bird">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgABCAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sol6ReplaceConditionalWithPolymorphism\BirdsWithPolymorphism\Bird.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimplifyConditionalExpressions.Sol6ReplaceConditionalWithPolymorphism.BirdsWithPolymorphism.EuropeanSwallow">
+    <Position X="5" Y="3" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Sol6ReplaceConditionalWithPolymorphism\BirdsWithStrategy\Strategies\EuropeanSwallowStrategy.cs</FileName>
+      <FileName>Sol6ReplaceConditionalWithPolymorphism\BirdsWithPolymorphism\EuropeanSwallow.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" Collapsed="true" />
   </Class>
-  <Class Name="SimplifyConditionalExpressions.Sol6ReplaceConditionalWithPolymorphism.BirdsWithStrategy.Strategies.NorwegianBlueBirdSpeedStrategy" BaseTypeListCollapsed="true">
-    <Position X="8" Y="4.5" Width="1.5" />
+  <Class Name="SimplifyConditionalExpressions.Sol6ReplaceConditionalWithPolymorphism.BirdsWithPolymorphism.NorwegianBlueParrot">
+    <Position X="2.5" Y="3" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Sol6ReplaceConditionalWithPolymorphism\BirdsWithStrategy\Strategies\NorwegianBlueParrotStrategy.cs</FileName>
+      <FileName>Sol6ReplaceConditionalWithPolymorphism\BirdsWithPolymorphism\NorwegianBlueParrot.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" Collapsed="true" />
   </Class>
-  <Interface Name="SimplifyConditionalExpressions.Sol6ReplaceConditionalWithPolymorphism.BirdsWithStrategy.Interfaces.IFlySpeedStrategy" Collapsed="true">
-    <Position X="10.25" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Sol6ReplaceConditionalWithPolymorphism\BirdsWithStrategy\Interfaces\IFlySpeedStrategy.cs</FileName>
-    </TypeIdentifier>
-  </Interface>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

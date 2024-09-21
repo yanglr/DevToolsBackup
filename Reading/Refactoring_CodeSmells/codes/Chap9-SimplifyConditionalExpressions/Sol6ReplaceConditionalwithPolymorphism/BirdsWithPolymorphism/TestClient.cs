@@ -4,8 +4,8 @@
     {
         internal static void Test()
         {
-            Bird bird = BirdCreator.Create(BirdType.NorwegianBlueParrot);
-            //Console.WriteLine(bird.GetFlySpeed(5));
+            Bird bird = new AfricanBird { IsNailed = true, Voltage = 20 };
+            Console.WriteLine(bird.GetFlySpeed(5));
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace SimplifyConditionalExpressions.Sol6ReplaceConditionalWithPolymorphism
 {
-    internal class TestClient1
+    internal class TestClient
     {
         internal static void Test()
         {

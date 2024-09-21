@@ -2,7 +2,7 @@
 {
     internal class EuropeanSwallow : Bird
     {
-        protected override double GetFlySpeed(int numberOfCoconuts)
+        public override double GetFlySpeed(int numberOfCoconuts)
         {
             return 35;
         }

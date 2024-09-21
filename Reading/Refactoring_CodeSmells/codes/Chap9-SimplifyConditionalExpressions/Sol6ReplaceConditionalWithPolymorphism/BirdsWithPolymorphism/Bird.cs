@@ -2,11 +2,10 @@
 {
     internal abstract class Bird
     {
-
         public bool IsNailed { get; set; }
 
-        public int Voltage { get; set; }
+        public double Voltage { get; set; }
 
-        protected abstract double GetFlySpeed(int numberOfCoconuts);
+        public abstract double GetFlySpeed(int numberOfCoconuts);
     }
 }
