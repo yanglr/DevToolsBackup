@@ -5,7 +5,9 @@ VisualStudioVersion = 17.11.35208.52
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeSmellKata", "CodeSmellKata\CodeSmellKata.csproj", "{5D03BF66-0511-4E13-BE8E-57F0F2274E8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimplifyConditionalExpressions", "SimplifyConditionalExpressions\SimplifyConditionalExpressions.csproj", "{F99CD676-A3A5-45E0-A800-961500FFF957}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimplifyConditionalExpressions", "Chap9-SimplifyConditionalExpressions\SimplifyConditionalExpressions.csproj", "{5E369526-C920-4013-9F1F-7CCC6D112359}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chap9-SimplifyConditionalExpressions", "Chap9-SimplifyConditionalExpressions", "{28EBFA2D-3A87-42DE-9EA1-2EF1793102C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,13 +19,16 @@ Global
 		{5D03BF66-0511-4E13-BE8E-57F0F2274E8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D03BF66-0511-4E13-BE8E-57F0F2274E8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D03BF66-0511-4E13-BE8E-57F0F2274E8E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F99CD676-A3A5-45E0-A800-961500FFF957}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F99CD676-A3A5-45E0-A800-961500FFF957}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F99CD676-A3A5-45E0-A800-961500FFF957}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F99CD676-A3A5-45E0-A800-961500FFF957}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E369526-C920-4013-9F1F-7CCC6D112359}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E369526-C920-4013-9F1F-7CCC6D112359}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E369526-C920-4013-9F1F-7CCC6D112359}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E369526-C920-4013-9F1F-7CCC6D112359}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5E369526-C920-4013-9F1F-7CCC6D112359} = {28EBFA2D-3A87-42DE-9EA1-2EF1793102C2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C2E02B9E-3354-4966-A32F-61D31106C44A}
