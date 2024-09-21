@@ -1,13 +1,13 @@
 ﻿namespace SimplifyConditionalExpressions.Sol5ReplaceNestedConditionalWithGuardClauses.InvertIf
 {
-    // 金融产品类型
+    // Financial product
     internal class FinancialInstrument
     {
         private double _capital;
 
         private double _rate;
 
-        private double _adjustmentFactor;
+        private double _adjustmentFactor; // > 0
 
         private int _duration; // days
 
