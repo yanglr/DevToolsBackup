@@ -17,8 +17,9 @@ if not exist "!folderName!" (
     echo Folder "!folderName!" created.
 ) else (
     echo Folder "!folderName!" already exists.
-    echo.
 )
+
+echo.
 
 :: Change to the folder
 cd /d "!folderName!"
