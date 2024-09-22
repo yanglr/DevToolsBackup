@@ -8,12 +8,14 @@
 mkdir Chap8-OrganizingData
 cd Chap8-OrganizingData
 
-dotnet new console -n Tip1-SelfEncapsulateField --framework "net6.0" --use-program-main
+dotnet new console -n Tip1.SelfEncapsulateField --framework "net6.0" --use-program-main
 ```
 
 
 
-其中参数 `--use-program-main` 的作用是禁用Top level statement (--no-top-level-statements)
+其中参数 `--use-program-main` 的作用是禁用Top level statement (--no-top-level-statements)。
+
+project name 中建议使用 "." 或 "_" 而不是 "-"，其中"."最优，否则后面创建class/interface 文件时，默认的namespace 会报exception，需要手动调整，要创建的文件数量多了就会浪费不少时间。
 
 
 
