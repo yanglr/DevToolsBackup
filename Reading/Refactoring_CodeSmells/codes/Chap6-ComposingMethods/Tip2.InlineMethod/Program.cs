@@ -1,10 +1,12 @@
-﻿namespace Tip2.InlineMethod
+﻿using Tip2.InlineMethod.Example1_RatingDriver;
+
+namespace Tip2.InlineMethod
 {
     internal class Program
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            TestClient.Test();
         }
     }
 }
