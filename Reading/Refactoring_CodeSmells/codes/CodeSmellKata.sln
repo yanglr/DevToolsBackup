@@ -11,133 +11,133 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chap09-SimplifyConditionalE
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chap06-ComposingMethods", "Chap06-ComposingMethods", "{942986B0-2EA2-45DA-A9B6-A36AB9439CFD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip1-ExtractMethod", "Chap6-ComposingMethods\Tip1-ExtractMethod\Tip1-ExtractMethod.csproj", "{8E887A60-1719-4E70-9138-03C04412697E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip1.ExtractMethod", "Chap6-ComposingMethods\Tip1.ExtractMethod\Tip1.ExtractMethod.csproj", "{8E887A60-1719-4E70-9138-03C04412697E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip2-InlineMethod", "Chap6-ComposingMethods\Tip2-InlineMethod\Tip2-InlineMethod.csproj", "{B32E3089-319F-474E-BB59-CB704F8F0348}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip2.InlineMethod", "Chap6-ComposingMethods\Tip2.InlineMethod\Tip2.InlineMethod.csproj", "{B32E3089-319F-474E-BB59-CB704F8F0348}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip3-InlineTemp", "Chap6-ComposingMethods\Tip3-InlineTemp\Tip3-InlineTemp.csproj", "{CA1650CD-7860-43DE-A826-8FAC0710EA38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip3.InlineTemp", "Chap6-ComposingMethods\Tip3.InlineTemp\Tip3.InlineTemp.csproj", "{CA1650CD-7860-43DE-A826-8FAC0710EA38}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip4-ReplaceTempWithQuery", "Chap6-ComposingMethods\Tip4-ReplaceTempWithQuery\Tip4-ReplaceTempWithQuery.csproj", "{DBC063FA-D5AE-4F64-A957-610EF579F93F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip4.ReplaceTempWithQuery", "Chap6-ComposingMethods\Tip4.ReplaceTempWithQuery\Tip4.ReplaceTempWithQuery.csproj", "{DBC063FA-D5AE-4F64-A957-610EF579F93F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip5-IntroduceExplainingVariable", "Chap6-ComposingMethods\Tip5-IntroduceExplainingVariable\Tip5-IntroduceExplainingVariable.csproj", "{81D14D97-321C-4F34-B16D-99FAC6F51495}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip5.IntroduceExplainingVariable", "Chap6-ComposingMethods\Tip5.IntroduceExplainingVariable\Tip5.IntroduceExplainingVariable.csproj", "{81D14D97-321C-4F34-B16D-99FAC6F51495}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip6-SplitTemporaryVariable", "Chap6-ComposingMethods\Tip6-SplitTemporaryVariable\Tip6-SplitTemporaryVariable.csproj", "{231F92BF-B51B-4998-8351-CA122AAE0994}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip6.SplitTemporaryVariable", "Chap6-ComposingMethods\Tip6.SplitTemporaryVariable\Tip6.SplitTemporaryVariable.csproj", "{231F92BF-B51B-4998-8351-CA122AAE0994}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip7-RemoveAssignmentsToParameters", "Chap6-ComposingMethods\Tip7-RemoveAssignmentsToParameters\Tip7-RemoveAssignmentsToParameters.csproj", "{198F3117-CF44-4066-A800-A8B573F5B7CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip7.RemoveAssignmentsToParameters", "Chap6-ComposingMethods\Tip7.RemoveAssignmentsToParameters\Tip7.RemoveAssignmentsToParameters.csproj", "{198F3117-CF44-4066-A800-A8B573F5B7CC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip8-ReplaceMethodWithMethodObject", "Chap6-ComposingMethods\Tip8-ReplaceMethodWithMethodObject\Tip8-ReplaceMethodWithMethodObject.csproj", "{B54372B0-B0F1-407E-A30B-75E205B48308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip8.ReplaceMethodWithMethodObject", "Chap6-ComposingMethods\Tip8.ReplaceMethodWithMethodObject\Tip8.ReplaceMethodWithMethodObject.csproj", "{B54372B0-B0F1-407E-A30B-75E205B48308}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip9-SubstituteAlgorithm", "Chap6-ComposingMethods\Tip9-SubstituteAlgorithm\Tip9-SubstituteAlgorithm.csproj", "{D0B95614-2C87-4A16-8E0F-64B72B270888}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip9.SubstituteAlgorithm", "Chap6-ComposingMethods\Tip9.SubstituteAlgorithm\Tip9.SubstituteAlgorithm.csproj", "{D0B95614-2C87-4A16-8E0F-64B72B270888}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chap07-MovingFeaturesBetweenObjects", "Chap07-MovingFeaturesBetweenObjects", "{613B38D1-C9D1-43F3-9931-7B7BF34F9AAE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip1-MoveMethod", "Chap7-MovingFeaturesBetweenObjects\Tip1-MoveMethod\Tip1-MoveMethod.csproj", "{5217D64E-753E-4172-B4A9-B97564979A77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip1.MoveMethod", "Chap7-MovingFeaturesBetweenObjects\Tip1.MoveMethod\Tip1.MoveMethod.csproj", "{5217D64E-753E-4172-B4A9-B97564979A77}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip2-MoveField", "Chap7-MovingFeaturesBetweenObjects\Tip2-MoveField\Tip2-MoveField.csproj", "{C8DE2151-1D42-4907-AC75-CA46FFAD6F4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip2.MoveField", "Chap7-MovingFeaturesBetweenObjects\Tip2.MoveField\Tip2.MoveField.csproj", "{C8DE2151-1D42-4907-AC75-CA46FFAD6F4D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip3-ExtractClass", "Chap7-MovingFeaturesBetweenObjects\Tip3-ExtractClass\Tip3-ExtractClass.csproj", "{A2CE7575-FDB8-44F0-A3E4-0EA53E5E1A09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip3.ExtractClass", "Chap7-MovingFeaturesBetweenObjects\Tip3.ExtractClass\Tip3.ExtractClass.csproj", "{A2CE7575-FDB8-44F0-A3E4-0EA53E5E1A09}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip4-InlineClass", "Chap7-MovingFeaturesBetweenObjects\Tip4-InlineClass\Tip4-InlineClass.csproj", "{6BC99ADA-87B7-4EEA-AD67-969654D12E53}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip4.InlineClass", "Chap7-MovingFeaturesBetweenObjects\Tip4.InlineClass\Tip4.InlineClass.csproj", "{6BC99ADA-87B7-4EEA-AD67-969654D12E53}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip5-HideDelegate", "Chap7-MovingFeaturesBetweenObjects\Tip5-HideDelegate\Tip5-HideDelegate.csproj", "{DC061D75-FA2B-497D-9EF5-C008D2177553}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip5.HideDelegate", "Chap7-MovingFeaturesBetweenObjects\Tip5.HideDelegate\Tip5.HideDelegate.csproj", "{DC061D75-FA2B-497D-9EF5-C008D2177553}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip6-RemoveMiddleMan", "Chap7-MovingFeaturesBetweenObjects\Tip6-RemoveMiddleMan\Tip6-RemoveMiddleMan.csproj", "{0AB937FB-2DD1-4561-8092-6170EAE8691C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip6.RemoveMiddleMan", "Chap7-MovingFeaturesBetweenObjects\Tip6.RemoveMiddleMan\Tip6.RemoveMiddleMan.csproj", "{0AB937FB-2DD1-4561-8092-6170EAE8691C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip7-IntroduceForeignMethod", "Chap7-MovingFeaturesBetweenObjects\Tip7-IntroduceForeignMethod\Tip7-IntroduceForeignMethod.csproj", "{6204898A-253B-4D83-A14A-547EF44DB4F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip7.IntroduceForeignMethod", "Chap7-MovingFeaturesBetweenObjects\Tip7.IntroduceForeignMethod\Tip7.IntroduceForeignMethod.csproj", "{6204898A-253B-4D83-A14A-547EF44DB4F1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip8-IntroduceLocalExtension", "Chap7-MovingFeaturesBetweenObjects\Tip8-IntroduceLocalExtension\Tip8-IntroduceLocalExtension.csproj", "{FA0CDE41-DE24-4DC3-B44C-6A51160058B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip8.IntroduceLocalExtension", "Chap7-MovingFeaturesBetweenObjects\Tip8.IntroduceLocalExtension\Tip8.IntroduceLocalExtension.csproj", "{FA0CDE41-DE24-4DC3-B44C-6A51160058B3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chap08-OrganizingData", "Chap08-OrganizingData", "{0AED3CB8-8445-4868-9258-9571CB260487}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip01-SelfEncapsulateField", "Chap8-OrganizingData\Tip1-SelfEncapsulateField\Tip01-SelfEncapsulateField.csproj", "{E55E4737-1A82-4837-8647-2FF28FEFB95C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip01.SelfEncapsulateField", "Chap8-OrganizingData\Tip1.SelfEncapsulateField\Tip01.SelfEncapsulateField.csproj", "{E55E4737-1A82-4837-8647-2FF28FEFB95C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip02-ReplaceDataValueWithObject", "Chap8-OrganizingData\Tip2-ReplaceDataValueWithObject\Tip02-ReplaceDataValueWithObject.csproj", "{5B3C6033-0F4D-4621-9327-5C0E49C86D85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip02.ReplaceDataValueWithObject", "Chap8-OrganizingData\Tip2.ReplaceDataValueWithObject\Tip02.ReplaceDataValueWithObject.csproj", "{5B3C6033-0F4D-4621-9327-5C0E49C86D85}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip03-ChangeValueToReference", "Chap8-OrganizingData\Tip3-ChangeValueToReference\Tip03-ChangeValueToReference.csproj", "{5A5CCEA9-06C0-4A36-8202-338EACA1B0E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip03.ChangeValueToReference", "Chap8-OrganizingData\Tip3.ChangeValueToReference\Tip03.ChangeValueToReference.csproj", "{5A5CCEA9-06C0-4A36-8202-338EACA1B0E5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip04-ChangeReferenceToValue", "Chap8-OrganizingData\Tip4-ChangeReferenceToValue\Tip04-ChangeReferenceToValue.csproj", "{25D718B1-937C-40AB-B945-A3636E2B7E6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip04.ChangeReferenceToValue", "Chap8-OrganizingData\Tip4.ChangeReferenceToValue\Tip04.ChangeReferenceToValue.csproj", "{25D718B1-937C-40AB-B945-A3636E2B7E6F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip05-ReplaceArrayWithObject", "Chap8-OrganizingData\Tip5-ReplaceArrayWithObject\Tip05-ReplaceArrayWithObject.csproj", "{1368057C-3D9B-46E3-B916-6AE8DC72FB71}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip05.ReplaceArrayWithObject", "Chap8-OrganizingData\Tip5.ReplaceArrayWithObject\Tip05.ReplaceArrayWithObject.csproj", "{1368057C-3D9B-46E3-B916-6AE8DC72FB71}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip06-DuplicateObservedData", "Chap8-OrganizingData\Tip6-DuplicateObservedData\Tip06-DuplicateObservedData.csproj", "{632E396A-F463-4F78-92B4-936B6D8D4D65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip06.DuplicateObservedData", "Chap8-OrganizingData\Tip6.DuplicateObservedData\Tip06.DuplicateObservedData.csproj", "{632E396A-F463-4F78-92B4-936B6D8D4D65}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip07-ChangeUnidirectionalAssociationToBidirectional", "Chap8-OrganizingData\Tip7-ChangeUnidirectionalAssociationToBidirectional\Tip07-ChangeUnidirectionalAssociationToBidirectional.csproj", "{3CE79F39-7C40-469E-B700-3767E5778C24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip07.ChangeUnidirectionalAssociationToBidirectional", "Chap8-OrganizingData\Tip7.ChangeUnidirectionalAssociationToBidirectional\Tip07.ChangeUnidirectionalAssociationToBidirectional.csproj", "{3CE79F39-7C40-469E-B700-3767E5778C24}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip08-ChangeBidirectionalAssociationToUnidirectional", "Chap8-OrganizingData\Tip8-ChangeBidirectionalAssociationToUnidirectional\Tip08-ChangeBidirectionalAssociationToUnidirectional.csproj", "{49349203-AD43-492F-9E49-A6C34290E1CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip08.ChangeBidirectionalAssociationToUnidirectional", "Chap8-OrganizingData\Tip8.ChangeBidirectionalAssociationToUnidirectional\Tip08.ChangeBidirectionalAssociationToUnidirectional.csproj", "{49349203-AD43-492F-9E49-A6C34290E1CA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip09-ReplaceMagicNumberWithSymbolicConstant", "Chap8-OrganizingData\Tip9-ReplaceMagicNumberWithSymbolicConstant\Tip09-ReplaceMagicNumberWithSymbolicConstant.csproj", "{4D838824-FA5F-4404-8D43-9A791FC0C1A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip09.ReplaceMagicNumberWithSymbolicConstant", "Chap8-OrganizingData\Tip9.ReplaceMagicNumberWithSymbolicConstant\Tip09.ReplaceMagicNumberWithSymbolicConstant.csproj", "{4D838824-FA5F-4404-8D43-9A791FC0C1A2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip10-EncapsulateField", "Chap8-OrganizingData\Tip10-EncapsulateField\Tip10-EncapsulateField.csproj", "{4A9E033F-EBA2-49EC-ACE9-156620F540BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip10.EncapsulateField", "Chap8-OrganizingData\Tip10.EncapsulateField\Tip10.EncapsulateField.csproj", "{4A9E033F-EBA2-49EC-ACE9-156620F540BF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip11-EncapsulateCollection", "Chap8-OrganizingData\Tip11-EncapsulateCollection\Tip11-EncapsulateCollection.csproj", "{A70AD2BE-20E5-4D4F-802E-1AF53B686093}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip11.EncapsulateCollection", "Chap8-OrganizingData\Tip11.EncapsulateCollection\Tip11.EncapsulateCollection.csproj", "{A70AD2BE-20E5-4D4F-802E-1AF53B686093}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip16-ReplaceSubclassWithFields", "Chap8-OrganizingData\Tip16-ReplaceSubclassWithFields\Tip16-ReplaceSubclassWithFields.csproj", "{984BB731-557A-4AA2-A165-5769B2987534}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip16.ReplaceSubclassWithFields", "Chap8-OrganizingData\Tip16.ReplaceSubclassWithFields\Tip16.ReplaceSubclassWithFields.csproj", "{984BB731-557A-4AA2-A165-5769B2987534}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip12-ReplaceRecordWithDataClass", "Chap8-OrganizingData\Tip12-ReplaceRecordWithDataClass\Tip12-ReplaceRecordWithDataClass.csproj", "{F106BBD8-E567-4BF2-A3A6-0E0C08829287}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip12.ReplaceRecordWithDataClass", "Chap8-OrganizingData\Tip12.ReplaceRecordWithDataClass\Tip12.ReplaceRecordWithDataClass.csproj", "{F106BBD8-E567-4BF2-A3A6-0E0C08829287}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip13-ReplaceTypeCodeWithClass", "Chap8-OrganizingData\Tip13-ReplaceTypeCodeWithClass\Tip13-ReplaceTypeCodeWithClass.csproj", "{618999D1-7A1D-41BE-9F91-DAF138EAB7E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip13.ReplaceTypeCodeWithClass", "Chap8-OrganizingData\Tip13.ReplaceTypeCodeWithClass\Tip13.ReplaceTypeCodeWithClass.csproj", "{618999D1-7A1D-41BE-9F91-DAF138EAB7E0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip14-ReplaceTypeCodeWithSubclasses", "Chap8-OrganizingData\Tip14-ReplaceTypeCodeWithSubclasses\Tip14-ReplaceTypeCodeWithSubclasses.csproj", "{C7AA3C53-2ED5-4D55-9A7C-81BE5BB9B5BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip14.ReplaceTypeCodeWithSubclasses", "Chap8-OrganizingData\Tip14.ReplaceTypeCodeWithSubclasses\Tip14.ReplaceTypeCodeWithSubclasses.csproj", "{C7AA3C53-2ED5-4D55-9A7C-81BE5BB9B5BF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip15-ReplaceTypeCodeWithStateOrStrategy", "Chap8-OrganizingData\Tip15-ReplaceTypeCodeWithStateOrStrategy\Tip15-ReplaceTypeCodeWithStateOrStrategy.csproj", "{8B9EFB7E-DFE3-46BB-9B60-416624F17E6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip15.ReplaceTypeCodeWithStateOrStrategy", "Chap8-OrganizingData\Tip15.ReplaceTypeCodeWithStateOrStrategy\Tip15.ReplaceTypeCodeWithStateOrStrategy.csproj", "{8B9EFB7E-DFE3-46BB-9B60-416624F17E6F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chap10-MakingMethodCallsSimpler", "Chap10-MakingMethodCallsSimpler", "{82DFE5E5-B00B-48DF-8AA0-632EA95A0F18}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip01-RenameMethod", "Chap10-MakingMethodCallsSimpler\Tip01-RenameMethod\Tip01-RenameMethod.csproj", "{159E3178-51CC-45E2-8DDC-FDF6C6E64AC0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip01.RenameMethod", "Chap10-MakingMethodCallsSimpler\Tip01.RenameMethod\Tip01.RenameMethod.csproj", "{159E3178-51CC-45E2-8DDC-FDF6C6E64AC0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip02-AddParameter", "Chap10-MakingMethodCallsSimpler\Tip02-AddParameter\Tip02-AddParameter.csproj", "{4B52A2FF-2912-4E0F-AB86-9D720441F110}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip02.AddParameter", "Chap10-MakingMethodCallsSimpler\Tip02.AddParameter\Tip02.AddParameter.csproj", "{4B52A2FF-2912-4E0F-AB86-9D720441F110}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip03-RemoveParameter", "Chap10-MakingMethodCallsSimpler\Tip03-RemoveParameter\Tip03-RemoveParameter.csproj", "{7DC412DF-9967-4C13-81F5-BBBE348ABB39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip03.RemoveParameter", "Chap10-MakingMethodCallsSimpler\Tip03.RemoveParameter\Tip03.RemoveParameter.csproj", "{7DC412DF-9967-4C13-81F5-BBBE348ABB39}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip04-SeparateQueryfromModifier", "Chap10-MakingMethodCallsSimpler\Tip04-SeparateQueryfromModifier\Tip04-SeparateQueryfromModifier.csproj", "{03C1FC56-9E47-4F34-ADB2-96952ABB24C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip04.SeparateQueryfromModifier", "Chap10-MakingMethodCallsSimpler\Tip04.SeparateQueryfromModifier\Tip04.SeparateQueryfromModifier.csproj", "{03C1FC56-9E47-4F34-ADB2-96952ABB24C8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip05-ParameterizeMethod", "Chap10-MakingMethodCallsSimpler\Tip05-ParameterizeMethod\Tip05-ParameterizeMethod.csproj", "{2938FC93-D2C2-47B9-918C-4C84E5DA6AEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip05.ParameterizeMethod", "Chap10-MakingMethodCallsSimpler\Tip05.ParameterizeMethod\Tip05.ParameterizeMethod.csproj", "{2938FC93-D2C2-47B9-918C-4C84E5DA6AEC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip07-PreserveWholeObject", "Chap10-MakingMethodCallsSimpler\Tip07-PreserveWholeObject\Tip07-PreserveWholeObject.csproj", "{20D8A20F-A404-47B8-A2C6-A19C75A8F10B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip07.PreserveWholeObject", "Chap10-MakingMethodCallsSimpler\Tip07.PreserveWholeObject\Tip07.PreserveWholeObject.csproj", "{20D8A20F-A404-47B8-A2C6-A19C75A8F10B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip08-ReplaceParameterWithMethod", "Chap10-MakingMethodCallsSimpler\Tip08-ReplaceParameterWithMethod\Tip08-ReplaceParameterWithMethod.csproj", "{FB29A509-4F61-4070-A3B6-51E649ABCC8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip08.ReplaceParameterWithMethod", "Chap10-MakingMethodCallsSimpler\Tip08.ReplaceParameterWithMethod\Tip08.ReplaceParameterWithMethod.csproj", "{FB29A509-4F61-4070-A3B6-51E649ABCC8A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip09-IntroduceParameterObject", "Chap10-MakingMethodCallsSimpler\Tip09-IntroduceParameterObject\Tip09-IntroduceParameterObject.csproj", "{FA5AE7A5-5725-43EE-A1C9-3B433D587191}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip09.IntroduceParameterObject", "Chap10-MakingMethodCallsSimpler\Tip09.IntroduceParameterObject\Tip09.IntroduceParameterObject.csproj", "{FA5AE7A5-5725-43EE-A1C9-3B433D587191}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip10-RemoveSettingMethod", "Chap10-MakingMethodCallsSimpler\Tip10-RemoveSettingMethod\Tip10-RemoveSettingMethod.csproj", "{423AE1E8-D1D2-4E1E-8E27-2E1A04F5D8D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip10.RemoveSettingMethod", "Chap10-MakingMethodCallsSimpler\Tip10.RemoveSettingMethod\Tip10.RemoveSettingMethod.csproj", "{423AE1E8-D1D2-4E1E-8E27-2E1A04F5D8D8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip11-HideMethod", "Chap10-MakingMethodCallsSimpler\Tip11-HideMethod\Tip11-HideMethod.csproj", "{2FDDB418-ED3D-44E6-A5BF-E9CEBB9437ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip11.HideMethod", "Chap10-MakingMethodCallsSimpler\Tip11.HideMethod\Tip11.HideMethod.csproj", "{2FDDB418-ED3D-44E6-A5BF-E9CEBB9437ED}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip12-ReplaceConstrucTorWithFacToryMethod", "Chap10-MakingMethodCallsSimpler\Tip12-ReplaceConstrucTorWithFacToryMethod\Tip12-ReplaceConstrucTorWithFacToryMethod.csproj", "{190F42CD-2886-4716-9016-6CF535A1598D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip12.ReplaceConstrucTorWithFacToryMethod", "Chap10-MakingMethodCallsSimpler\Tip12.ReplaceConstrucTorWithFacToryMethod\Tip12.ReplaceConstrucTorWithFacToryMethod.csproj", "{190F42CD-2886-4716-9016-6CF535A1598D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip14-ReplaceErrorCodeWithException", "Chap10-MakingMethodCallsSimpler\Tip14-ReplaceErrorCodeWithException\Tip14-ReplaceErrorCodeWithException.csproj", "{0ABEA73E-9ECB-409D-A651-E2A1CE36DCA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip14.ReplaceErrorCodeWithException", "Chap10-MakingMethodCallsSimpler\Tip14.ReplaceErrorCodeWithException\Tip14.ReplaceErrorCodeWithException.csproj", "{0ABEA73E-9ECB-409D-A651-E2A1CE36DCA5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip15-ReplaceExceptionWithTest", "Chap10-MakingMethodCallsSimpler\Tip15-ReplaceExceptionWithTest\Tip15-ReplaceExceptionWithTest.csproj", "{29D27F73-802A-4B8F-ADEA-283BEF7599AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip15.ReplaceExceptionWithTest", "Chap10-MakingMethodCallsSimpler\Tip15.ReplaceExceptionWithTest\Tip15.ReplaceExceptionWithTest.csproj", "{29D27F73-802A-4B8F-ADEA-283BEF7599AD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip06-ReplaceParameterWithExplicitMethods", "Chap10-MakingMethodCallsSimpler\Tip06-ReplaceParameterWithExplicitMethods\Tip06-ReplaceParameterWithExplicitMethods.csproj", "{4937863E-19BD-48E4-B9FC-7DF6193C6790}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip06.ReplaceParameterWithExplicitMethods", "Chap10-MakingMethodCallsSimpler\Tip06.ReplaceParameterWithExplicitMethods\Tip06.ReplaceParameterWithExplicitMethods.csproj", "{4937863E-19BD-48E4-B9FC-7DF6193C6790}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip13-EncapsulateDowncast", "Chap10-MakingMethodCallsSimpler\Tip13-EncapsulateDowncast\Tip13-EncapsulateDowncast.csproj", "{43FFD9E1-8C7C-4608-9995-5453006D9902}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip13.EncapsulateDowncast", "Chap10-MakingMethodCallsSimpler\Tip13.EncapsulateDowncast\Tip13.EncapsulateDowncast.csproj", "{43FFD9E1-8C7C-4608-9995-5453006D9902}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chap11-DealingWithGeneralization", "Chap11-DealingWithGeneralization", "{6B9C8615-9D4C-4AC3-BE9E-E21471069555}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip01-PullUpField", "Chap11-DealingWithGeneralization\Tip01-PullUpField\Tip01-PullUpField.csproj", "{B98F7294-4E4D-4EB4-A0EB-9CFC54996B23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip01.PullUpField", "Chap11-DealingWithGeneralization\Tip01.PullUpField\Tip01.PullUpField.csproj", "{B98F7294-4E4D-4EB4-A0EB-9CFC54996B23}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip02-PullUpMethod", "Chap11-DealingWithGeneralization\Tip02-PullUpMethod\Tip02-PullUpMethod.csproj", "{9EC3253F-6F12-4B0D-AB0F-739371C5421F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip02.PullUpMethod", "Chap11-DealingWithGeneralization\Tip02.PullUpMethod\Tip02.PullUpMethod.csproj", "{9EC3253F-6F12-4B0D-AB0F-739371C5421F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip03-PullUpConstrucTorBody", "Chap11-DealingWithGeneralization\Tip03-PullUpConstrucTorBody\Tip03-PullUpConstrucTorBody.csproj", "{4DE6BD03-8FEE-4E4A-8B70-5044A0949BF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip03.PullUpConstrucTorBody", "Chap11-DealingWithGeneralization\Tip03.PullUpConstrucTorBody\Tip03.PullUpConstrucTorBody.csproj", "{4DE6BD03-8FEE-4E4A-8B70-5044A0949BF9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip04-PushDownMethod", "Chap11-DealingWithGeneralization\Tip04-PushDownMethod\Tip04-PushDownMethod.csproj", "{C8CCFE2C-7C7A-4101-8415-884D83E6C06B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip04.PushDownMethod", "Chap11-DealingWithGeneralization\Tip04.PushDownMethod\Tip04.PushDownMethod.csproj", "{C8CCFE2C-7C7A-4101-8415-884D83E6C06B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip05-PushDownField", "Chap11-DealingWithGeneralization\Tip05-PushDownField\Tip05-PushDownField.csproj", "{2B2AA35A-935B-4F32-B512-58FDC0AB02F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip05.PushDownField", "Chap11-DealingWithGeneralization\Tip05.PushDownField\Tip05.PushDownField.csproj", "{2B2AA35A-935B-4F32-B512-58FDC0AB02F6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip06-ExtractSubclass", "Chap11-DealingWithGeneralization\Tip06-ExtractSubclass\Tip06-ExtractSubclass.csproj", "{99583001-EDB8-4598-8AF2-2D8C7D6DFB4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip06.ExtractSubclass", "Chap11-DealingWithGeneralization\Tip06.ExtractSubclass\Tip06.ExtractSubclass.csproj", "{99583001-EDB8-4598-8AF2-2D8C7D6DFB4B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip07-ExtractSuperclass", "Chap11-DealingWithGeneralization\Tip07-ExtractSuperclass\Tip07-ExtractSuperclass.csproj", "{912135CB-D1B7-4C7C-A745-3D6BB3CB60AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip07.ExtractSuperclass", "Chap11-DealingWithGeneralization\Tip07.ExtractSuperclass\Tip07.ExtractSuperclass.csproj", "{912135CB-D1B7-4C7C-A745-3D6BB3CB60AE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip08-ExtractInterface", "Chap11-DealingWithGeneralization\Tip08-ExtractInterface\Tip08-ExtractInterface.csproj", "{3FB8CAE1-F642-4454-961E-12BA0132996E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip08.ExtractInterface", "Chap11-DealingWithGeneralization\Tip08.ExtractInterface\Tip08.ExtractInterface.csproj", "{3FB8CAE1-F642-4454-961E-12BA0132996E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip09-CollapseHierarchy", "Chap11-DealingWithGeneralization\Tip09-CollapseHierarchy\Tip09-CollapseHierarchy.csproj", "{988A96D5-F923-4835-89ED-B180F7420976}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip09.CollapseHierarchy", "Chap11-DealingWithGeneralization\Tip09.CollapseHierarchy\Tip09.CollapseHierarchy.csproj", "{988A96D5-F923-4835-89ED-B180F7420976}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip10-FormTemplateMethod", "Chap11-DealingWithGeneralization\Tip10-FormTemplateMethod\Tip10-FormTemplateMethod.csproj", "{A0D1FB5A-4019-42E8-A030-967410E94529}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip10.FormTemplateMethod", "Chap11-DealingWithGeneralization\Tip10.FormTemplateMethod\Tip10.FormTemplateMethod.csproj", "{A0D1FB5A-4019-42E8-A030-967410E94529}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip11-ReplaceInheritanceWithDelegation", "Chap11-DealingWithGeneralization\Tip11-ReplaceInheritanceWithDelegation\Tip11-ReplaceInheritanceWithDelegation.csproj", "{502FE764-71CB-42D1-9847-37AC8CAF5D24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip11.ReplaceInheritanceWithDelegation", "Chap11-DealingWithGeneralization\Tip11.ReplaceInheritanceWithDelegation\Tip11.ReplaceInheritanceWithDelegation.csproj", "{502FE764-71CB-42D1-9847-37AC8CAF5D24}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip12-ReplaceDelegationWithInheritance", "Chap11-DealingWithGeneralization\Tip12-ReplaceDelegationWithInheritance\Tip12-ReplaceDelegationWithInheritance.csproj", "{6AC18CF8-15E3-4846-85EA-4300F0BA6FDA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip12.ReplaceDelegationWithInheritance", "Chap11-DealingWithGeneralization\Tip12.ReplaceDelegationWithInheritance\Tip12.ReplaceDelegationWithInheritance.csproj", "{6AC18CF8-15E3-4846-85EA-4300F0BA6FDA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlternativeClassesWithDiffInterfaces", "AlternativeClassesWithDiffInterfaces\AlternativeClassesWithDiffInterfaces.csproj", "{6F23925C-32B3-451D-9B15-E17F2A31061C}"
 EndProject
