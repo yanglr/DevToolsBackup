@@ -1,10 +1,13 @@
-﻿namespace Tip4.ReplaceTempWithQuery
+﻿using Tip4.ReplaceTempWithQuery.Optimize4;
+
+namespace Tip4.ReplaceTempWithQuery
 {
     internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            TestClient.Test();
+            Console.ReadKey();
         }
     }
 }
