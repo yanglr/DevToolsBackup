@@ -1,10 +1,13 @@
-﻿namespace Tip6.SplitTemporaryVariable
+﻿using Tip6.SplitTemporaryVariable.Optimize2;
+
+namespace Tip6.SplitTemporaryVariable
 {
     internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            TestClient.Test();
+            Console.ReadKey();
         }
     }
 }
