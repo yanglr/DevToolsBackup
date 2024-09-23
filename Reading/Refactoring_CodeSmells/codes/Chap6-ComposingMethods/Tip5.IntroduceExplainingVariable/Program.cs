@@ -1,10 +1,13 @@
-﻿namespace Tip5.IntroduceExplainingVariable
+﻿using Tip4.ReplaceTempWithQuery.Optimize5;
+
+namespace Tip5.IntroduceExplainingVariable
 {
     internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            TestClient.Test();
+            Console.ReadKey();
         }
     }
 }
