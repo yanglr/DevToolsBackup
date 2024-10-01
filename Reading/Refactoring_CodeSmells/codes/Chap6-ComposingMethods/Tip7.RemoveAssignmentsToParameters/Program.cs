@@ -1,10 +1,11 @@
-﻿namespace Tip7.RemoveAssignmentstoParameters
+﻿namespace Tip7.RemoveAssignmentsToParameters
 {
     internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            TestClient.Test();
+            Console.ReadKey();
         }
     }
 }

@@ -4,13 +4,13 @@
     {
         public void PrintOwing(Invoice invoice)
         {
-            double totalOwingAmount = 0;
+            double outstanding = 0;
             PrintBanner();
 
             // calculate outstanding
             foreach (var order in invoice.Orders)
             {
-                totalOwingAmount += order.Amount;
+                outstanding += order.Amount;
             }
 
             // record due date
@@ -18,7 +18,7 @@
             invoice.DueDate = today.AddDays(30);
 
             // print details
-            PrintDetails(invoice, totalOwingAmount);
+            PrintDetails(invoice, outstanding);
         }
 
         private void PrintBanner()
