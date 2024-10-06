@@ -7,6 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Send", "tutorial1\Send\Send
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Receive", "tutorial1\Receive\Receive.csproj", "{DF0091D9-6020-461D-8EB2-619779835C8B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tutorial1-HelloWorld", "Tutorial1-HelloWorld", "{0CE1DC36-D222-4924-9BF4-2FDC6B410CB0}"
+	ProjectSection(SolutionItems) = preProject
+		tutorial1\Steps.md = tutorial1\Steps.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +29,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EF5AEF60-1D6F-4647-B85D-48BDD9FBB240} = {0CE1DC36-D222-4924-9BF4-2FDC6B410CB0}
+		{DF0091D9-6020-461D-8EB2-619779835C8B} = {0CE1DC36-D222-4924-9BF4-2FDC6B410CB0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5E0C0DBF-47B3-4AAA-9321-230FC3D7D324}
