@@ -1,6 +1,4 @@
-﻿using Tip2.InlineMethod.Example1_RatingDriver;
-
-namespace Tip2.InlineMethod.Example1_RatingDrive.Optimize
+﻿namespace Tip2.InlineMethod.Example1_RatingDriver.Optimize1
 {
     public class RatingService
     {

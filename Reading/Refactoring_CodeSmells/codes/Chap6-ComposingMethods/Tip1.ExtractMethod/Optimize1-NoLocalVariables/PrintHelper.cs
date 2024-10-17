@@ -1,4 +1,4 @@
-﻿namespace Tip1.ExtractMethod.Optimize1
+﻿namespace Tip1.ExtractMethod.Optimize1_NoLocalVariables
 {
     public class PrintHelper
     {
