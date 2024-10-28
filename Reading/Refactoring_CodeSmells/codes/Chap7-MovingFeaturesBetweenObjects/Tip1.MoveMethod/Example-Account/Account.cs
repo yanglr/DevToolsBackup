@@ -17,7 +17,7 @@
         {
             if (_type.IsPremium)
             {
-                const double baseCharge = 10;
+                double baseCharge = 10;
                 if (_daysOverdrawn <= 7)
                     return baseCharge;
                 else

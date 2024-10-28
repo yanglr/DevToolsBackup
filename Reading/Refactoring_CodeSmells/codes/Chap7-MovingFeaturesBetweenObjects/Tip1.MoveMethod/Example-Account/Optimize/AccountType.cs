@@ -9,7 +9,7 @@
             _isPremium = isPremium;
         }
 
-        internal double OverdraftCharge(int daysOverdrawn)
+        internal double GetOverdraftCharge(int daysOverdrawn)
         {
             if (_isPremium)
             {

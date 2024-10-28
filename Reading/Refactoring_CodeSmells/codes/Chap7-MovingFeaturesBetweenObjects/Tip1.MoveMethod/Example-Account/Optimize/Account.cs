@@ -1,6 +1,4 @@
-﻿using System.Runtime.InteropServices;
-
-namespace Tip1.MoveMethod.Example_Account.Optimize
+﻿namespace Tip1.MoveMethod.Example_Account.Optimize
 {
     internal class Account
     {
@@ -16,13 +14,8 @@ namespace Tip1.MoveMethod.Example_Account.Optimize
         {
             double result = 4.5;
             if (_daysOverdrawn > 0)
-                result += OverdraftCharge();
+                result += _type.GetOverdraftCharge(_daysOverdrawn);
             return result;
-        }
-
-        internal double OverdraftCharge()
-        {
-            return _type.OverdraftCharge(_daysOverdrawn);
         }
     }
 }
