@@ -7,7 +7,7 @@
             var accountType = new AccountType(true);
             var account = new Account(accountType);
 
-            double result = account.OverdraftCharge();
+            double result = account.BankCharge();
 
             Console.WriteLine(result);
         }

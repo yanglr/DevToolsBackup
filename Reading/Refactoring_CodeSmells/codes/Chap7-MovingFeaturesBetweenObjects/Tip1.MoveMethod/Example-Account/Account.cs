@@ -9,7 +9,10 @@
         {
             double result = 4.5;
             if (_daysOverdrawn > 0)
+            {
                 result += OverdraftCharge();
+            }
+
             return result;
         }
 
@@ -19,12 +22,18 @@
             {
                 double baseCharge = 10;
                 if (_daysOverdrawn <= 7)
+                {
                     return baseCharge;
+                }
                 else
+                {
                     return baseCharge + (_daysOverdrawn - 7) * 0.85;
+                }
             }
             else
+            {
                 return _daysOverdrawn * 1.75;
+            }
         }
     }
 }

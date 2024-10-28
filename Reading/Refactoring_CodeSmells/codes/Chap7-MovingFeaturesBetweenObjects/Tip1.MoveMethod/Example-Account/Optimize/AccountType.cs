@@ -13,9 +13,13 @@
         {
             if (_isPremium)
             {
-                double result = 10;
-                if (daysOverdrawn > 7) result += (daysOverdrawn - 7) * 0.85;
-                return result;
+                double baseCharge = 10;
+                if (daysOverdrawn <= 7)
+                {
+                    return baseCharge;
+                }
+
+                return baseCharge + (daysOverdrawn - 7) * 0.85;
             }
             else
             {

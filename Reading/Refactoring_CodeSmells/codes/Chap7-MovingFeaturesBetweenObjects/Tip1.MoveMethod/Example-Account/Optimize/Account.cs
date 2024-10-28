@@ -14,7 +14,10 @@
         {
             double result = 4.5;
             if (_daysOverdrawn > 0)
+            {
                 result += _type.GetOverdraftCharge(_daysOverdrawn);
+            }
+
             return result;
         }
     }
