@@ -20,8 +20,8 @@
 
         public int Compute()
         {
-            _alphaValue = (_inputVal * _quantity) + _account.Delta();
-            _betaValue = (_inputVal * _yearToDate) + 100;
+            _alphaValue = _inputVal * _quantity + _account.Delta();
+            _betaValue = _inputVal * _yearToDate + 100;
             AdjustBetaValue();
             _sigmaValue = _betaValue * 7;
             return _sigmaValue - 2 * _alphaValue;
@@ -29,7 +29,7 @@
 
         private void AdjustBetaValue()
         {
-            if ((_yearToDate - _alphaValue) > 100)
+            if (_yearToDate - _alphaValue > 100)
             {
                 _betaValue -= 20;
             }
