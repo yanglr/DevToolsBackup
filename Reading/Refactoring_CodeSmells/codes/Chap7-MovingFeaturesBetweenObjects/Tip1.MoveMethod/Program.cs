@@ -1,11 +1,12 @@
-﻿namespace Tip1.MoveMethod
+﻿using Tip1.MoveMethod.Example_Account.Optimize;
+
+namespace Tip1.MoveMethod
 {
     internal class Program
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
-            Console.ReadKey();
+            TestClient.Test();
         }
     }
 }
