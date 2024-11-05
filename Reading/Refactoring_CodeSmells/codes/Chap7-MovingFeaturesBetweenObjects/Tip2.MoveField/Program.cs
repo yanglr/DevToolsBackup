@@ -4,7 +4,7 @@
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Way2.Step2.TestClient.Test();
             Console.ReadKey();
         }
     }
