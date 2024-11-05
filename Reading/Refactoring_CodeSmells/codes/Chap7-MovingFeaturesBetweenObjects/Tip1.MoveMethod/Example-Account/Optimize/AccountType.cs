@@ -2,16 +2,16 @@
 {
     internal class AccountType
     {
-        internal bool _isPremium { get; set; }
+        internal bool IsPremium { get; set; }
 
         public AccountType(bool isPremium)
         {
-            _isPremium = isPremium;
+            IsPremium = isPremium;
         }
 
         internal double GetOverdraftCharge(int daysOverdrawn)
         {
-            if (_isPremium)
+            if (IsPremium)
             {
                 double baseCharge = 10;
                 if (daysOverdrawn <= 7)
@@ -21,10 +21,8 @@
 
                 return baseCharge + (daysOverdrawn - 7) * 0.85;
             }
-            else
-            {
-                return daysOverdrawn * 1.75;
-            }
+
+            return daysOverdrawn * 1.75;
         }
     }
 }
