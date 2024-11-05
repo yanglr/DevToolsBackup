@@ -1,3 +1,3 @@
 **Goal**:
 
-Move _interest rate to `AccountType` class._
+Move `_interestRate` field to `AccountType` class.
