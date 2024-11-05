@@ -4,17 +4,12 @@
     {
         private string _officeAreaCode;
 
-        public TelephoneNumber(string officeAreaCode)
-        {
-            _officeAreaCode = officeAreaCode;
-        }
-
-        private string GetOfficeAreaCode()
+        internal string GetOfficeAreaCode()
         {
             return _officeAreaCode;
         }
 
-        private void SetOfficeAreaCode(string officeAreaCode)
+        internal void SetOfficeAreaCode(string officeAreaCode)
         {
             _officeAreaCode = officeAreaCode;
         }

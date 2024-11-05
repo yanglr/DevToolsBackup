@@ -2,13 +2,15 @@
 {
     internal class Person
     {
+        private readonly TelephoneNumber _telephoneNumber;
         private readonly string _name;
         private string _officeNumber;
 
-        public Person(string name, string officeNumber)
+        public Person(string name, string officeNumber, TelephoneNumber telephoneNumber)
         {
             _name = name;
             _officeNumber = officeNumber;
+            _telephoneNumber = telephoneNumber;
         }
 
         public string GetName()
@@ -18,7 +20,7 @@
 
         public string GetTelephoneNumber()
         {
-            return "(" + _officeAreaCode + ") " + _officeNumber;
+            return "(" + _telephoneNumber.GetOfficeAreaCode() + ") " + _officeNumber;
         }
 
         private string GetOfficeNumber()
