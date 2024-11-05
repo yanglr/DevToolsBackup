@@ -7,7 +7,7 @@
             var account = new Account();
             var accountType = new AccountType();
             accountType.IsPremium = true;
-            account._type = accountType;
+            account.Type = accountType;
 
             double result = account.OverdraftCharge();
 
