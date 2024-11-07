@@ -4,14 +4,8 @@
     {
         private string _officeAreaCode;
 
-        internal string GetOfficeAreaCode()
-        {
-            return _officeAreaCode;
-        }
+        internal string GetOfficeAreaCode() => _officeAreaCode;
 
-        internal void SetOfficeAreaCode(string officeAreaCode)
-        {
-            _officeAreaCode = officeAreaCode;
-        }
+        internal void SetOfficeAreaCode(string officeAreaCode) => _officeAreaCode = officeAreaCode;
     }
 }

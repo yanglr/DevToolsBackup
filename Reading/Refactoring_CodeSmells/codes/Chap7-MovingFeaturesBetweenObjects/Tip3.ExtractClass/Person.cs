@@ -13,34 +13,17 @@
             _officeNumber = officeNumber;
         }
 
-        public string GetName()
-        {
-            return _name;
-        }
+        public string GetName() => _name;
 
         public string GetTelephoneNumber()
-        {
-            return "(" + _officeAreaCode + ") " + _officeNumber;
-        }
+            => "(" + _officeAreaCode + ") " + _officeNumber;
 
-        private string GetOfficeAreaCode()
-        {
-            return _officeAreaCode;
-        }
+        private string GetOfficeAreaCode() => _officeAreaCode;
 
-        private void SetOfficeAreaCode(string officeAreaCode)
-        {
-            _officeAreaCode = officeAreaCode;
-        }
+        private void SetOfficeAreaCode(string officeAreaCode) => _officeAreaCode = officeAreaCode;
 
-        private string GetOfficeNumber()
-        {
-            return _officeNumber;
-        }
+        private string GetOfficeNumber() => _officeNumber;
 
-        private void SetOfficeNumber(string officeNumber)
-        {
-            _officeNumber = officeNumber;
-        }
+        private void SetOfficeNumber(string officeNumber) => _officeNumber = officeNumber;
     }
 }
