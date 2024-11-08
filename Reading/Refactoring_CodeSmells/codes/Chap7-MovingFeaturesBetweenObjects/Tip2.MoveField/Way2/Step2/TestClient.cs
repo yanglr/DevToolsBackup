@@ -10,7 +10,7 @@
 
             double result = account.InterestForAmountWithDays(1000, 5);
 
-            Console.WriteLine(string.Format("{0:F2}", result));
+            Console.WriteLine($"{result:F2}");
         }
     }
 }
