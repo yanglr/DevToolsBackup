@@ -11,9 +11,6 @@
             _telephoneNumber = telephoneNumber;
         }
 
-        public string GetName()
-        {
-            return _name;
-        }
+        public string GetName() => _name;
     }
 }

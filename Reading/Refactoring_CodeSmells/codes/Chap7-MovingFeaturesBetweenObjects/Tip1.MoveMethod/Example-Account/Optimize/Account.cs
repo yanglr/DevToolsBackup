@@ -4,7 +4,7 @@
     {
         private AccountType Type { get; set; }
         private int DaysOverdrawn { get; set; }
-        
+
         public Account(AccountType type)
         {
             Type = type;

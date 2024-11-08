@@ -242,3 +242,5 @@ public class Program {
 ```cs
 DateTime NextDay(this DateTime date);
 ```
+
+C# Àý×Ó, ¸ÄÐ´×Ô: https://ctrlshift.dev/introduce-local-extension/

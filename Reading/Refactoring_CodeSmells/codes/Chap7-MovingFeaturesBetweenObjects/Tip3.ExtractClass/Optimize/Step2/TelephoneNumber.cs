@@ -12,28 +12,14 @@
         }
 
         public string GetTelephoneNumber()
-        {
-            return "(" + GetOfficeAreaCode() + ") " + _officeNumber;
-        }
+            => "(" + GetOfficeAreaCode() + ") " + _officeNumber;
 
-        internal string GetOfficeNumber()
-        {
-            return _officeNumber;
-        }
+        internal string GetOfficeNumber() => _officeNumber;
 
-        internal void SetOfficeNumber(string officeNumber)
-        {
-            _officeNumber = officeNumber;
-        }
+        internal void SetOfficeNumber(string officeNumber) => _officeNumber = officeNumber;
 
-        internal string GetOfficeAreaCode()
-        {
-            return _officeAreaCode;
-        }
+        internal string GetOfficeAreaCode() => _officeAreaCode;
 
-        internal void SetOfficeAreaCode(string officeAreaCode)
-        {
-            _officeAreaCode = officeAreaCode;
-        }
+        internal void SetOfficeAreaCode(string officeAreaCode) => _officeAreaCode = officeAreaCode;
     }
 }
