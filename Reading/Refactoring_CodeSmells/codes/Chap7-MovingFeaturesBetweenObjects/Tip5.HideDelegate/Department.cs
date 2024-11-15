@@ -4,7 +4,7 @@
     {
         private string _manager;
 
-        public Department(string manager)
+        public void SetDepartment(string manager)
         {
             _manager = manager;
         }

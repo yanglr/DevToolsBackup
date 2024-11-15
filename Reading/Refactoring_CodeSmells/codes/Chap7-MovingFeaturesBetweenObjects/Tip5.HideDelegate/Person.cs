@@ -4,7 +4,12 @@
     {
         private Department _department;
 
-        public Person(Department department)
+        public string GetManager(Department department)
+        {
+            return department.GetManager();
+        }
+
+        public void SetDepartment(Department department)
         {
             _department = department;
         }
@@ -13,10 +18,6 @@
         {
             return _department;
         }
-
-        public void SetDepartment(Department department)
-        {
-            _department = department;
-        }
     }
 }
+

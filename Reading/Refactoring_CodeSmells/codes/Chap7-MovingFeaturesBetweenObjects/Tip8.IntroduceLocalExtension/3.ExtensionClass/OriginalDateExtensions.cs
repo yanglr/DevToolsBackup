@@ -1,6 +1,6 @@
 ﻿using Tip8.IntroduceLocalExtension;
 
-namespace Tip8.IntroduceLocalExtension_3.ExtensionClass
+namespace Tip8.IntroduceLocalExtension3.ExtensionClass
 {
     internal static class OriginalDateExtensions
     {

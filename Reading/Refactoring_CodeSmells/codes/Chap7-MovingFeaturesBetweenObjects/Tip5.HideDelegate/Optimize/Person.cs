@@ -2,9 +2,9 @@
 {
     internal class Person
     {
-        private Department _department;
+        private readonly Department _department;
 
-        public Person(Department department)
+        public Person(Department department) // pass parameter using ctor
         {
             _department = department;
         }
@@ -13,10 +13,6 @@
         {
             return _department.GetManager();
         }
-
-        private Department GetDepartment()
-        {
-            return _department;
-        }
     }
 }
+

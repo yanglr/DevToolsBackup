@@ -2,7 +2,7 @@
 {
     internal class Person
     {
-        private Department _department;
+        private readonly Department _department;
 
         public Person(Department department)
         {

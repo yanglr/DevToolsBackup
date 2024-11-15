@@ -2,9 +2,9 @@
 {
     internal class Department
     {
-        private string _manager;
-
-        public Department(string manager)
+        private readonly string _manager;
+		
+        public Department(string manager) // pass parameter using ctor
         {
             _manager = manager;
         }
@@ -15,3 +15,4 @@
         }
     }
 }
+

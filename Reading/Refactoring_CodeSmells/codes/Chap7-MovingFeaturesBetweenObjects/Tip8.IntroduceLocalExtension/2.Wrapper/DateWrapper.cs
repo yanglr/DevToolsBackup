@@ -4,7 +4,7 @@ namespace Tip8.IntroduceLocalExtension_2.Wrapper
 {
     internal class DateWrapper
     {
-        private OriginalDate _originalDate;
+        private readonly OriginalDate _originalDate;
 
         public DateWrapper(OriginalDate originalDate)
         {
@@ -17,6 +17,7 @@ namespace Tip8.IntroduceLocalExtension_2.Wrapper
             return false;
         }
 
-        // Delegate other methods to the _originalDate...
+        // Delegate other methods to the _originalDate if any...
     }
 }
+

@@ -2,13 +2,13 @@
 {
     internal class OriginalDate
     {
-        private DateTime date;
+        private readonly DateTime _date;
 
         public OriginalDate(DateTime date)
         {
-            this.date = date;
+            _date = date;
         }
 
-        // Other methods...
+        // Extra task to do: add one method to check if a date is holiday
     }
 }
