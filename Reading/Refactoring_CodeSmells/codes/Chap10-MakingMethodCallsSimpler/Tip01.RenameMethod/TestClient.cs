@@ -1,4 +1,6 @@
-﻿namespace Tip01.RenameMethod
+﻿using Tip01.RenameMethod.MigrationMechanics;
+
+namespace Tip01.RenameMethod
 {
     internal class TestClient
     {
