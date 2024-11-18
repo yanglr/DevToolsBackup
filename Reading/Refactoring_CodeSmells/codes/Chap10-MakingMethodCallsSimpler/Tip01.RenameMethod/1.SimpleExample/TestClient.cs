@@ -1,12 +1,12 @@
-﻿namespace Tip01.RenameMethod.Rename.Step1
+﻿namespace Tip01.RenameMethod1.SimpleExample
 {
     internal class TestClient
     {
         public static void Test()
         {
-            var person = new Person("021", "58652235");
+            var calculator = new Calculator();
 
-            var result = person.GetTelephoneNumber();
+            var result = calculator.Circum(5);
 
             Console.WriteLine(result);
             Console.ReadKey();

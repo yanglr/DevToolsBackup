@@ -4,7 +4,7 @@
     {
         private static void Main(string[] args)
         {
-            Rename.Step3.TestClient.Test();
+            MigrationMechanics.Step3.TestClient.Test();
         }
     }
 }

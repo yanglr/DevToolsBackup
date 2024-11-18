@@ -1,4 +1,4 @@
-﻿namespace Tip01.RenameMethod.Rename.Step2
+﻿namespace Tip01.RenameMethod.MigrationMechanics.Step1
 {
     internal class TestClient
     {
@@ -6,7 +6,7 @@
         {
             var person = new Person("021", "58652235");
 
-            var result = person.GetOfficeTelephoneNumber();
+            var result = person.GetTelephoneNumber();
 
             Console.WriteLine(result);
             Console.ReadKey();

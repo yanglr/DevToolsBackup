@@ -1,4 +1,4 @@
-﻿namespace Tip01.RenameMethod.Rename.Step1
+﻿namespace Tip01.RenameMethod.MigrationMechanics.Step1
 {
     internal class Person
     {
