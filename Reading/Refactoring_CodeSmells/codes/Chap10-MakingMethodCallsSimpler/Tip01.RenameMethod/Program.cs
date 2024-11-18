@@ -4,8 +4,7 @@
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
-            Console.ReadKey();
+            Rename.Step3.TestClient.Test();
         }
     }
 }
