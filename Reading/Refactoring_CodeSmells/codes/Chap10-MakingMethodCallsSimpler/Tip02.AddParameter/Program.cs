@@ -1,8 +1,10 @@
-﻿namespace Tip02.AddParameter;
-class Program
+﻿namespace Tip02.AddParameter
 {
-    static void Main(string[] args)
+    internal class Program
     {
-        Console.WriteLine("Hello, World!");
+        private static void Main(string[] args)
+        {
+            TestClient.Test();
+        }
     }
 }
