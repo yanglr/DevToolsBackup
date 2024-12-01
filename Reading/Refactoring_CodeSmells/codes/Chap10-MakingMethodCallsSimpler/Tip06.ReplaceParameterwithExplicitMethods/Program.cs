@@ -1,8 +1,9 @@
 ﻿namespace Tip06.ReplaceParameterWithExplicitMethods;
-class Program
+
+internal class Program
 {
-    static void Main(string[] args)
+    private static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        TestClient.Test();
     }
 }
