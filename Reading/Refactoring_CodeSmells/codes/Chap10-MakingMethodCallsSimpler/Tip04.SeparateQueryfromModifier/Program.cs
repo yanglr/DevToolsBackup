@@ -4,6 +4,6 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        TestClient.Test();
+        Step3.TestClient.Test();
     }
 }
