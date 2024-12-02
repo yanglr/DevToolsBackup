@@ -9,7 +9,7 @@
             _tempRange = new TempRange(low, high);
         }
 
-        // Get temparature of the day
+        // Get temperature of the day
         public TempRange DaysTempRange()
         {
             return _tempRange;
